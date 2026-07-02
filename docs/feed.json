@@ -1,5 +1,17 @@
 [
  {
+  "id": "93e3c95ac8194a83",
+  "kind": "research",
+  "headline": "Qwen image agent improves real-world generation with context",
+  "summary": "This is research about making AI image generators understand what you want by paying better attention to context. It could help future image tools make more accurate pictures from the descriptions you write.",
+  "detail": "Qwen researchers built a system that solves a common problem in image generation: the gap between what you describe and what the tool actually makes. Their key idea is handling context better so the AI figures out what you really mean. This is academic research, not a tool you can use right now, but it shows how image generation tools might get smarter and more accurate in the future.",
+  "category": "research",
+  "relevance": 5,
+  "url": "https://arxiv.org/abs/2606.26907",
+  "source": "Hacker News",
+  "timestamp": "2026-07-02T18:23:48Z"
+ },
+ {
   "id": "f5f16a9fd799cc63",
   "kind": "launch",
   "headline": "MotionLoom: open-source video-as-code creation language",
