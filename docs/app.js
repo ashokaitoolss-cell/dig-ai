@@ -91,7 +91,13 @@
         "<h2>" + esc(it.headline) + "</h2>" +
         '<p class="summary">' + esc(it.summary) + "</p>" +
         '<div class="dateline">' + esc(it.source) + " · " + timeAgo(it.timestamp) + "</div>";
-      card.addEventListener("click", function () {
+      card.addEventListener("pointerdown", function (e) {
+        card._down = [e.clientX, e.clientY];
+      });
+      card.addEventListener("click", function (e) {
+        // a swipe/drag that ends on the card must not count as a tap
+        var d = card._down;
+        if (d && (Math.abs(e.clientX - d[0]) > 12 || Math.abs(e.clientY - d[1]) > 12)) return;
         window.open(it.url, "_blank", "noopener");
       });
       slide.appendChild(card);
