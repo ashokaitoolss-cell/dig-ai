@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>dig.ai</title>
+  <meta name="description" content="Personal radar for launches in visual & creative AI">
+  <meta name="theme-color" content="#010401">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="dig.ai">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600&family=Spline+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="top">
+    <span class="wordmark">dig<b>.</b>ai</span>
+    <span class="status" id="status"></span>
+  </header>
+  <nav class="filters" id="filters" aria-label="Category filters">
+    <button class="chip active" data-filter="all">ALL</button>
+    <button class="chip" data-filter="video-gen">&#127916; VIDEO</button>
+    <button class="chip" data-filter="image-gen">&#127912; IMAGE</button>
+    <button class="chip" data-filter="3d">&#129704; 3D</button>
+    <button class="chip" data-filter="audio-music">&#127925; AUDIO</button>
+    <button class="chip" data-filter="editing-vfx">&#9986;&#65039; EDITING</button>
+    <button class="chip" data-filter="platform">&#128736; PLATFORMS</button>
+    <button class="chip toggle" id="relToggle" aria-pressed="false">7+</button>
+  </nav>
+  <main class="feed" id="feed"></main>
+  <script src="app.js"></script>
+</body>
+</html>

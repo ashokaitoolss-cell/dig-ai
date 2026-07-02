@@ -1,11 +1,75 @@
 # dig.ai — design moodboard
 
-*Phase 2 design direction. Approved before any UI code is written.*
-*Note: `moodboard/` was empty at research time, so this direction comes from
-the web research below. Drop screenshots there and ask for a revision if you
-want the direction re-derived.*
+*Phase 2 design direction.*
 
 ---
+
+## REVISION 2 — Sazabi theme (current direction)
+
+Owner directive: theme the app like [sazabi.com](https://www.sazabi.com/)
+("just the theme" — app structure unchanged). Tokens extracted directly from
+Sazabi's shipped CSS (`--background`, `--card-dark`, `--primary`, etc.).
+
+### Thesis (revised)
+
+dig.ai is a tactical launch console: a green-cast near-black surface where
+every launch reads like an incoming signal. Condensed uppercase display type
+(Teko) carries the headline, monospace uppercase labels (JetBrains Mono) carry
+all metadata, and one signal red — Sazabi's `#FF0027` — is rationed to what's
+new, hot, or active. Cards are hairline-framed panels with a chamfered corner,
+HUD-style: felt as instrumentation, not decoration.
+
+### Color tokens (from sazabi.com CSS)
+
+```css
+--bg:            #010401;   /* page — near-black, faint green cast */
+--card:          #080c0b;   /* card panel (Sazabi --card-dark) */
+--card-2:        #0d1110;   /* chips, badges, inputs (--card-secondary) */
+--hairline:      rgba(255,255,255,0.10);  /* --border */
+--border-solid:  #4f5553;   /* rare emphasized edge */
+
+--text-high:     #fafafa;   /* headlines (--foreground) */
+--text-body:     #b8c6c2;   /* summaries — sage gray (--card-foreground) */
+--text-meta:     #808987;   /* datelines, quiet labels (--muted) */
+
+--red:           #ff0027;   /* THE accent (--primary): active chip, NEW,
+                               relevance ≥ 8, wordmark dot */
+--red-dim:       #710515;   /* pressed red (--primary-dimmed) */
+--sage:          #dce8e4;   /* secondary accent, sparing (--secondary-accent) */
+--success:       #00d294;   /* status only */
+```
+
+Per-category accent hues from Revision 1 are dropped — the Sazabi theme is
+monochrome + red. Categories differentiate by emoji + mono label only.
+
+### Typography (Sazabi stack, Google Fonts)
+
+| Role | Face | Size / line | Weight | Case |
+|---|---|---|---|---|
+| Headline | Teko | 38px / 1.02 | 500 | UPPERCASE |
+| Summary | Spline Sans | 15.5px / 1.6 | 400 | sentence |
+| Meta / chips / badges | JetBrains Mono | 11px / 1.2 | 500 | UPPERCASE, +0.06em |
+| Wordmark | JetBrains Mono | 18px | 700 | `dig` white + `.` red |
+
+### Surface language
+
+- Cards: `--card` fill, 1px `--hairline` frame, **18px chamfer cut on the
+  top-right corner** (clip-path), radius 4px elsewhere — Sazabi's cut-corner
+  signature. No shadows.
+- Unread cards get a 6px red corner dot beside the chamfer + mono `NEW`.
+- Relevance badge: mono `REL 08`, red at ≥ 8, muted otherwise.
+- Chips: rectangular, `--card-2` fill, hairline frame, small chamfer; active
+  chip = red fill, `#fafafa` text.
+- Everything else from Revision 1 still stands: elevation by lightness, no
+  gradients/glass/blur, ≤300ms motion, generous dark gutters, whole card =
+  one tap target.
+
+---
+
+## REVISION 1 — editorial DM Sans (superseded, kept for reference)
+
+*Note: `moodboard/` was empty at research time, so this direction came from
+the web research below.*
 
 ## Design thesis
 

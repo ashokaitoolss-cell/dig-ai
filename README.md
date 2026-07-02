@@ -118,3 +118,16 @@ ANTHROPIC_API_KEY=sk-ant-... python3 -m dig.main --dry-run
 - **Replicate 401:** add the optional `REPLICATE_API_TOKEN` secret.
 - **An `html` source returns junk:** tighten its `link_pattern`, or set
   `enabled: false`.
+
+## The app (Phase 2)
+
+The PWA lives in `docs/` (vanilla HTML/CSS/JS, no build step) and reads
+`feed.json` from the same folder. Theme derived from sazabi.com — see
+[design/MOODBOARD.md](design/MOODBOARD.md), Revision 2.
+
+- **Local preview:** `python3 -m http.server 8642 --directory docs`, then open
+  `http://localhost:8642/?demo=1` (`?demo=1` loads `demo-feed.json` sample
+  cards; without it the app reads the real `feed.json`).
+- **Install on your phone:** open `https://<you>.github.io/dig-ai/` — iOS
+  Safari: Share → *Add to Home Screen*; Android Chrome: menu → *Install app*.
+- Unread state is per-device (localStorage). Pull down to refresh the feed.
