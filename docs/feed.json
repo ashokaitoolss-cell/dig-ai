@@ -1,5 +1,29 @@
 [
  {
+  "id": "203af55f846d31eb",
+  "kind": "launch",
+  "headline": "ElevenLabs introduces Procedures in ElevenAgents",
+  "summary": "ElevenLabs added a new feature called Procedures to automate voice agent workflows. It could help you build repeatable voice systems for video projects, though it's not specifically built for motion design.",
+  "detail": "ElevenLabs announced Procedures, a new capability for their ElevenAgents platform. This feature appears to enable automated workflows using their voice generation technology. No technical details or pricing information was provided in the announcement.",
+  "category": "audio-music",
+  "relevance": 3,
+  "url": "https://elevenlabs.io/blog/procedures",
+  "source": "ElevenLabs",
+  "timestamp": "2026-07-02T11:34:31Z"
+ },
+ {
+  "id": "9295057c60792535",
+  "kind": "launch",
+  "headline": "ElevenLabs launches Ads Engine in ElevenCreative",
+  "summary": "ElevenLabs introduced an Ads Engine tool for generating voiceovers and audio for advertisements. It speeds up audio creation for ads, but focuses on voice generation rather than video or motion work.",
+  "detail": "ElevenLabs announced the Ads Engine feature within their ElevenCreative platform. The tool is designed to streamline the creation of audio content for advertising campaigns. Limited information is available about specific capabilities or integration with other creative workflows.",
+  "category": "audio-music",
+  "relevance": 2,
+  "url": "https://elevenlabs.io/blog/introducing-ads-engine-in-elevencreative",
+  "source": "ElevenLabs",
+  "timestamp": "2026-07-02T11:34:31Z"
+ },
+ {
   "id": "8a1b46f835858460",
   "kind": "launch",
   "headline": "Ciaro Pro launches for AI filmmakers",
