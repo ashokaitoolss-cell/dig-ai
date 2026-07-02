@@ -38,8 +38,11 @@ one object per input item, each containing:
     niche research, tiny fine-tunes.
 - `"headline"` — max 10 words, plain and factual, no clickbait, no trailing
   period. Name the tool/model.
-- `"summary"` — exactly 2 sentences: what it is, and why it matters to an AI
-  filmmaker / motion designer.
+- `"summary"` — exactly 2 short sentences in simple, everyday English (around
+  an 8th-grade reading level): first, what it is in plain words; second, why
+  it is useful for someone who makes AI films and motion design. Use short,
+  common words. No jargon, no marketing language, no long clauses — write it
+  the way you would explain it to a friend over text.
 
 ## Rules
 

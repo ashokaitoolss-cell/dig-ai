@@ -14,8 +14,7 @@
   --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
   --display: "Teko", sans-serif;
   --body: "Spline Sans", system-ui, sans-serif;
-  --chrome: 108px; /* header + filter bar */
-  --peek: 26px;
+  --peek: 108px;   /* how much of the next card shows below the current one */
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -107,9 +106,10 @@ body {
 .feed::-webkit-scrollbar { display: none; }
 
 .slide {
-  height: calc(100dvh - var(--chrome) - var(--peek) - env(safe-area-inset-top));
+  /* sized against the feed container itself so the next card always peeks */
+  height: calc(100% - var(--peek));
   scroll-snap-align: start;
-  padding-top: 14px;
+  padding-top: 12px;
 }
 .slide:last-child { margin-bottom: calc(var(--peek) + env(safe-area-inset-bottom)); }
 
@@ -176,7 +176,7 @@ body {
 .card h2 {
   font-family: var(--display);
   font-weight: 500;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1.02;
   letter-spacing: 0.01em;
   text-transform: uppercase;

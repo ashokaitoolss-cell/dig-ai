@@ -116,18 +116,28 @@
     });
   }
 
-  var io = null;
+  var ioIn = null, ioSeen = null;
   function observeCards() {
-    if (io) io.disconnect();
-    io = new IntersectionObserver(function (entries) {
+    if (ioIn) ioIn.disconnect();
+    if (ioSeen) ioSeen.disconnect();
+    // entrance fade fires as soon as any part peeks into view…
+    ioIn = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) e.target.classList.add("in");
+      });
+    }, { root: feedEl, threshold: 0.05 });
+    // …but a card only counts as read once it's mostly on screen
+    ioSeen = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
         if (!e.isIntersecting) return;
-        e.target.classList.add("in");
         var id = e.target.dataset.id;
         if (id && !seen.has(id)) { seen.add(id); saveSeen(); }
       });
-    }, { root: feedEl, threshold: 0.5 });
-    feedEl.querySelectorAll(".card").forEach(function (c) { io.observe(c); });
+    }, { root: feedEl, threshold: 0.6 });
+    feedEl.querySelectorAll(".card").forEach(function (c) {
+      ioIn.observe(c);
+      ioSeen.observe(c);
+    });
   }
 
   function load(showPull) {
