@@ -157,12 +157,14 @@ def run(dry_run=False, seed=False):
             log.append({"ts": util.now_iso(), "event": "classified",
                         "source": item["source_id"], "title": item["title"][:150],
                         "url": item["url"], **result})
-            if not result["is_launch"] or not result["headline"]:
+            if result["kind"] == "skip" or not result["headline"]:
                 continue
             entry = {
                 "id": item["_hash"],
+                "kind": result["kind"],
                 "headline": result["headline"],
                 "summary": result["summary"],
+                "detail": result["detail"],
                 "category": result["category"],
                 "relevance": result["relevance"],
                 "url": item["url"],
@@ -170,7 +172,10 @@ def run(dry_run=False, seed=False):
                 "timestamp": util.now_iso(),
             }
             launches.append(entry)
-            if result["relevance"] < cfg.get("relevance_threshold", 6):
+            # launches ping at the normal bar; research/funding only when big
+            notify_min = cfg.get("relevance_threshold", 6) if result["kind"] == "launch" \
+                else cfg.get("news_notify_threshold", 8)
+            if result["relevance"] < notify_min:
                 continue
             if dry_run:
                 print("  [dry-run ping] %s %s (rel %d) — %s" % (

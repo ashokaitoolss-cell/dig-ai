@@ -209,6 +209,77 @@ body {
 }
 .empty .sig { color: var(--sage); }
 
+/* ── detail view ────────────────────────────────────────── */
+.detail {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(1, 4, 1, 0.78);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.detail-panel {
+  width: 100%;
+  max-width: 500px;
+  max-height: 88%;
+  overflow-y: auto;
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);
+  margin: 0 10px calc(10px + env(safe-area-inset-bottom));
+  padding: 24px 24px 30px;
+  transform: translateY(24px);
+  opacity: 0;
+  transition: transform 220ms ease-out, opacity 220ms ease-out;
+}
+.detail.open .detail-panel { transform: none; opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .detail-panel { transform: none; opacity: 1; transition: none; }
+}
+.detail-panel .meta { margin-bottom: 18px; }
+.detail-panel .meta .rel { margin-left: auto; }
+.detail-close {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--text-meta);
+  background: none;
+  border: none;
+  padding: 6px 0 6px 14px;
+  cursor: pointer;
+}
+.detail-panel h2 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.02;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--text-high);
+  margin-bottom: 14px;
+}
+.detail-body {
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--text-body);
+  margin-bottom: 22px;
+}
+.detail-panel .dateline { margin-bottom: 24px; }
+.open-src {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-high);
+  text-decoration: none;
+  background: var(--red);
+  padding: 12px 18px;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+}
+.open-src:active { background: var(--red-dim); }
+
 .pull {
   position: absolute;
   top: calc(var(--chrome) + 6px);

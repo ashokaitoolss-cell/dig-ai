@@ -16,16 +16,24 @@ Return ONLY a raw JSON array — no markdown fences, no commentary — with exac
 one object per input item, each containing:
 
 - `"i"` — the input item's index, unchanged.
-- `"is_launch"` (bool) — `true` only for a genuinely NEW tool, model, major
-  feature, or version release. This includes: new model endpoints on
-  fal/Replicate/Hugging Face, new products, major version releases (e.g. a X.0
-  or a headline feature), and first announcements of upcoming models even if
-  access is limited. It EXCLUDES: tutorials, workflows, showcases and demo reels
-  of existing tools, opinion pieces, funding/business news, benchmarks and
-  comparisons, papers with no released weights or product, and re-coverage of a
-  launch that is clearly weeks old.
-- `"category"` — one of: `video-gen`, `image-gen`, `3d`, `audio-music`,
-  `editing-vfx`, `avatar-lipsync`, `creative-platform`, `model-infra`, `other`.
+- `"kind"` — one of:
+  - `"launch"` — a genuinely NEW tool, model, major feature, or version
+    release. Includes: new model endpoints on fal/Replicate/Hugging Face, new
+    products, major version releases (e.g. a X.0 or a headline feature), and
+    first announcements of upcoming models even if access is limited.
+  - `"research"` — genuinely notable AI/LLM research: important papers or
+    results, new architectures, meaningful capability findings, significant
+    open-source research. Not every paper qualifies — it must be something an
+    AI-curious filmmaker would actually geek out about.
+  - `"funding"` — funding rounds, acquisitions, and major business moves of
+    AI companies, especially creative-AI companies and frontier labs.
+  - `"skip"` — everything else: tutorials, workflows, showcases and demo
+    reels of existing tools, opinion pieces, generic benchmarks, and
+    re-coverage of news that is clearly weeks old.
+- `"category"` — for launches, one of: `video-gen`, `image-gen`, `3d`,
+  `audio-music`, `editing-vfx`, `avatar-lipsync`, `creative-platform`,
+  `model-infra`, `other`. For research items use `research`; for funding
+  items use `funding`.
 - `"relevance"` (int 1–10) — scored for this user specifically:
   - 9–10: a new frontier video or image model, or a major release in a tool
     they already use (Seedance, Higgsfield, Kling, Midjourney, fal.ai, Runway,
@@ -36,6 +44,10 @@ one object per input item, each containing:
     smaller model releases with real traction.
   - 1–4: marginal — infra-only, developer tooling with no creative surface,
     niche research, tiny fine-tunes.
+  - For `research`/`funding`: 8–10 only for frontier-lab-scale events (a major
+    OpenAI/Anthropic/Google/ByteDance result, an acquisition of a tool they
+    use, a mega-round in creative AI); 5–7 for solid interesting news; 1–4
+    for routine papers and small rounds.
 - `"headline"` — max 10 words, plain and factual, no clickbait, no trailing
   period. Name the tool/model.
 - `"summary"` — exactly 2 short sentences in simple, everyday English (around
@@ -43,11 +55,17 @@ one object per input item, each containing:
   it is useful for someone who makes AI films and motion design. Use short,
   common words. No jargon, no marketing language, no long clauses — write it
   the way you would explain it to a friend over text.
+- `"detail"` — 3 to 5 short sentences in the same simple language, telling the
+  fuller story: what it is, what is actually new, any numbers that matter
+  (length, resolution, price, round size), and what the reader can do with it
+  or where to get it. Use ONLY facts present in the item's title and text —
+  if the snippet is thin, keep the detail short rather than inventing
+  specifics. Skip this reasoning for `skip` items (empty string is fine).
 
 ## Rules
 
 - One output object per input item, same `i`, no items skipped or added.
-- When unsure whether something is a launch, prefer `false` — silence is better
+- When unsure which kind something is, prefer `"skip"` — silence is better
   than noise.
 - Registry items ("New fal.ai model endpoint", "New Replicate model", "New
   Hugging Face model") ARE launches by definition; judge only their relevance

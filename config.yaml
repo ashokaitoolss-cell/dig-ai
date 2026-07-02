@@ -1,5 +1,6 @@
 # dig.ai engine tuning
-relevance_threshold: 6       # minimum relevance for a phone notification
+relevance_threshold: 6       # minimum relevance for a launch notification
+news_notify_threshold: 8     # research/funding items only ping at/above this
 high_priority_threshold: 8   # at/above this, the ntfy push is Priority: high
 classifier_model: claude-haiku-4-5-20251001
 classifier_batch_size: 20    # items per Claude call

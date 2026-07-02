@@ -40,6 +40,8 @@ sources:
       - "diffusion"
       - "image generation"
       - "video generation"
+      - "LLM"
+      - "AI funding"
 
   - id: reddit
     name: Reddit

@@ -4,7 +4,7 @@ import requests
 EMOJI = {
     "video-gen": "🎬", "image-gen": "🎨", "3d": "🧊", "audio-music": "🎵",
     "editing-vfx": "✂️", "avatar-lipsync": "🗣", "creative-platform": "🛠",
-    "model-infra": "⚙️", "other": "📡",
+    "model-infra": "⚙️", "research": "🧠", "funding": "💰", "other": "📡",
 }
 
 

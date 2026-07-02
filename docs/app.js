@@ -9,7 +9,7 @@
     "video-gen": "🎬", "image-gen": "🎨", "3d": "🧊",
     "audio-music": "🎵", "editing-vfx": "✂️",
     "avatar-lipsync": "🗣", "creative-platform": "🛠",
-    "model-infra": "⚙️", "other": "📡"
+    "model-infra": "⚙️", "research": "🧠", "funding": "💰", "other": "📡"
   };
   // filter groups: which categories each chip shows
   var GROUPS = {
@@ -18,7 +18,8 @@
     "3d": ["3d"],
     "audio-music": ["audio-music"],
     "editing-vfx": ["editing-vfx"],
-    "platform": ["creative-platform", "model-infra", "other"]
+    "platform": ["creative-platform", "model-infra", "other"],
+    "nerd": ["research", "funding"]
   };
 
   var feedEl = document.getElementById("feed");
@@ -98,7 +99,7 @@
         // a swipe/drag that ends on the card must not count as a tap
         var d = card._down;
         if (d && (Math.abs(e.clientX - d[0]) > 12 || Math.abs(e.clientY - d[1]) > 12)) return;
-        window.open(it.url, "_blank", "noopener");
+        openDetail(it);
       });
       slide.appendChild(card);
       feedEl.appendChild(slide);
@@ -114,6 +115,38 @@
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
+  }
+
+  /* in-app detail view: the whole story, with an explicit way out to the source */
+  function openDetail(it) {
+    var overlay = document.createElement("div");
+    overlay.className = "detail";
+    var body = it.detail || it.summary;
+    overlay.innerHTML =
+      '<div class="detail-panel">' +
+        '<div class="meta">' +
+          '<span class="cat">' + (EMOJI[it.category] || "") + " " + esc(it.category) + "</span>" +
+          '<span class="rel' + (it.relevance >= 8 ? " hot" : "") + '">REL ' +
+            String(it.relevance).padStart(2, "0") + "</span>" +
+          '<button class="detail-close" aria-label="Close">✕</button>' +
+        "</div>" +
+        "<h2>" + esc(it.headline) + "</h2>" +
+        '<p class="detail-body">' + esc(body) + "</p>" +
+        '<div class="dateline">' + esc(it.source) + " · " + timeAgo(it.timestamp) + "</div>" +
+        '<a class="open-src" href="' + esc(it.url) + '" target="_blank" rel="noopener">OPEN SOURCE ↗</a>' +
+      "</div>";
+    function close() {
+      overlay.remove();
+      document.removeEventListener("keydown", onKey);
+    }
+    function onKey(e) { if (e.key === "Escape") close(); }
+    overlay.addEventListener("click", function (e) {
+      if (e.target === overlay || e.target.closest(".detail-close")) close();
+    });
+    document.addEventListener("keydown", onKey);
+    document.body.appendChild(overlay);
+    if (!seen.has(it.id)) { seen.add(it.id); saveSeen(); }
+    requestAnimationFrame(function () { overlay.classList.add("open"); });
   }
 
   var ioIn = null, ioSeen = null;

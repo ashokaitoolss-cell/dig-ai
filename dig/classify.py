@@ -7,10 +7,13 @@ from anthropic import Anthropic
 CATEGORIES = {
     "video-gen", "image-gen", "3d", "audio-music", "editing-vfx",
     "avatar-lipsync", "creative-platform", "model-infra", "other",
+    "research", "funding",
 }
 
-NOT_A_LAUNCH = {"is_launch": False, "category": "other", "relevance": 1,
-                "headline": "", "summary": ""}
+KINDS = {"launch", "research", "funding", "skip"}
+
+SKIPPED = {"kind": "skip", "category": "other", "relevance": 1,
+           "headline": "", "summary": "", "detail": ""}
 
 
 def classify_batch(items, model, prompt_template):
@@ -41,7 +44,7 @@ def classify_batch(items, model, prompt_template):
             results = _parse_json_array(text)
             by_index = {r["i"]: _normalize(r) for r in results
                         if isinstance(r, dict) and "i" in r}
-            return [by_index.get(i, dict(NOT_A_LAUNCH)) for i in range(len(items))]
+            return [by_index.get(i, dict(SKIPPED)) for i in range(len(items))]
         except (ValueError, KeyError, TypeError) as exc:
             last_err = exc
     raise ValueError("classifier returned unparseable output: %s" % last_err)
@@ -56,15 +59,22 @@ def _parse_json_array(text):
 
 
 def _normalize(raw):
+    kind = raw.get("kind")
+    if kind not in KINDS:
+        # older prompt shape: fall back to is_launch
+        kind = "launch" if raw.get("is_launch") else "skip"
     category = raw.get("category", "other")
+    if kind in ("research", "funding"):
+        category = kind
     try:
         relevance = max(1, min(10, int(float(raw.get("relevance", 1)))))
     except (ValueError, TypeError):
         relevance = 1
     return {
-        "is_launch": bool(raw.get("is_launch")),
+        "kind": kind,
         "category": category if category in CATEGORIES else "other",
         "relevance": relevance,
         "headline": str(raw.get("headline") or "").strip()[:90],
         "summary": str(raw.get("summary") or "").strip()[:500],
+        "detail": str(raw.get("detail") or "").strip()[:1200],
     }
