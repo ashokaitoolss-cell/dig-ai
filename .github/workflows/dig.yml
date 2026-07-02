@@ -1,0 +1,51 @@
+name: dig.ai radar
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      seed:
+        description: "Set to 1 to seed seen.json without sending notifications"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dig-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run radar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          SEED_MODE: ${{ github.event.inputs.seed || '0' }}
+        run: python -m dig.main
+
+      - name: Commit state + feed
+        run: |
+          git config user.name "dig-ai[bot]"
+          git config user.email "dig-ai@users.noreply.github.com"
+          git add state docs
+          if ! git diff --cached --quiet; then
+            git commit -m "radar: $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi

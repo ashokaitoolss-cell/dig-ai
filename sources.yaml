@@ -1,0 +1,171 @@
+# dig.ai sources.
+# Types: fal | replicate | huggingface | hackernews | reddit | rss | html
+# `html` scrapes post links from a blog index page: give it `url` and a
+# `link_pattern` substring that real post URLs contain.
+# Set `enabled: false` to switch a source off without deleting it.
+# After editing, run `python3 -m dig.main --dry-run` to sanity-check.
+
+sources:
+  # ── High-signal registries — catch launches before announcements ──────────
+  - id: fal
+    name: fal.ai
+    type: fal
+
+  - id: replicate
+    name: Replicate
+    type: replicate
+    # Set the REPLICATE_API_TOKEN secret if the public listing returns 401.
+
+  - id: huggingface
+    name: Hugging Face
+    type: huggingface
+    pipeline_tags:
+      - text-to-video
+      - text-to-image
+      - image-to-video
+      - image-to-image
+      - text-to-3d
+      - text-to-audio
+      - text-to-speech
+    min_traction: 5   # likes + downloads required before a new repo surfaces
+
+  # ── News & community ───────────────────────────────────────────────────────
+  - id: hackernews
+    name: Hacker News
+    type: hackernews
+    queries:
+      - "video model"
+      - "image model"
+      - "AI video"
+      - "diffusion"
+      - "image generation"
+      - "video generation"
+
+  - id: reddit
+    name: Reddit
+    type: reddit
+    subreddits:
+      - StableDiffusion
+      - aivideo
+      - singularity
+
+  - id: producthunt
+    name: Product Hunt
+    type: rss
+    url: https://www.producthunt.com/feed
+
+  # ── Official blogs & changelogs (RSS/Atom where available) ────────────────
+  - id: openai
+    name: OpenAI
+    type: rss
+    url: https://openai.com/news/rss.xml
+
+  - id: deepmind
+    name: Google DeepMind
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+
+  - id: stability
+    name: Stability AI
+    type: rss
+    url: https://stability.ai/news-updates?format=rss
+
+  - id: qwen
+    name: Alibaba Qwen / Wan
+    type: rss
+    url: https://qwenlm.github.io/blog/index.xml
+
+  - id: comfyui
+    name: ComfyUI
+    type: rss
+    url: https://blog.comfy.org/feed
+
+  # ── Official blogs without RSS (HTML index scrape) ────────────────────────
+  - id: runway
+    name: Runway
+    type: html
+    url: https://runwayml.com/research
+    link_pattern: /research/
+
+  - id: luma
+    name: Luma AI
+    type: html
+    url: https://lumalabs.ai/news
+    link_pattern: /news/
+    enabled: false   # JS-rendered index; Luma launches surface via HN/fal/Reddit
+
+  - id: bfl
+    name: Black Forest Labs
+    type: html
+    url: https://bfl.ai/blog
+    link_pattern: /blog
+
+  - id: midjourney
+    name: Midjourney
+    type: html
+    url: https://www.midjourney.com/updates
+    link_pattern: /updates/
+
+  - id: elevenlabs
+    name: ElevenLabs
+    type: html
+    url: https://elevenlabs.io/blog
+    link_pattern: /blog/
+
+  - id: higgsfield
+    name: Higgsfield
+    type: html
+    url: https://higgsfield.ai/blog
+    link_pattern: /blog
+
+  - id: krea
+    name: Krea
+    type: html
+    url: https://www.krea.ai/blog
+    link_pattern: /blog
+
+  - id: ideogram
+    name: Ideogram
+    type: html
+    url: https://about.ideogram.ai/blog
+    link_pattern: ideogram
+    enabled: false   # JS-rendered; Ideogram launches surface via HN/Reddit/Replicate
+
+  - id: recraft
+    name: Recraft
+    type: html
+    url: https://www.recraft.ai/blog
+    link_pattern: /blog/
+
+  - id: topaz
+    name: Topaz Labs
+    type: html
+    url: https://www.topazlabs.com/learn
+    link_pattern: /learn/
+
+  - id: adobe
+    name: Adobe
+    type: html
+    url: https://blog.adobe.com/en
+    link_pattern: /publish/
+
+  - id: pika
+    name: Pika
+    type: html
+    url: https://pika.art/blog
+    link_pattern: /blog
+    enabled: false   # JS-rendered site — flip on if it starts serving static HTML
+
+  - id: kling
+    name: Kling / Kuaishou
+    type: html
+    url: https://app.klingai.com/global/release-notes
+    link_pattern: release
+    enabled: false   # JS-rendered app shell; launches usually surface via HN/Reddit/fal instead
+
+  - id: hunyuan
+    name: Tencent Hunyuan
+    type: html
+    url: https://hunyuan.tencent.com
+    link_pattern: hunyuan
+    enabled: false   # JS-rendered; Hunyuan releases reliably appear on Hugging Face + HN

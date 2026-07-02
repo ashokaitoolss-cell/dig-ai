@@ -1,0 +1,9 @@
+# dig.ai engine tuning
+relevance_threshold: 6       # minimum relevance for a phone notification
+high_priority_threshold: 8   # at/above this, the ntfy push is Priority: high
+classifier_model: claude-haiku-4-5-20251001
+classifier_batch_size: 20    # items per Claude call
+feed_cap: 500                # docs/feed.json keeps the newest N launches
+log_cap_lines: 5000          # state/log.jsonl rotates past this
+request_delay_seconds: 1.5   # politeness delay between requests to the same host
+failure_warning_after: 5     # consecutive failures before a source warning rides along on the next ping
