@@ -1,5 +1,17 @@
 [
  {
+  "id": "510d470d8f6ce2b9",
+  "kind": "launch",
+  "headline": "Google Gemini Omni Flash video generation",
+  "summary": "Gemini Omni Flash is Google adding video generation and editing to their Gemini model. It matters because you work with Runway and Seedance—another frontier lab entering video generation means more tools and capabilities to experiment with for your AI films.",
+  "detail": "Google released Gemini Omni Flash through Product Hunt with video generation and conversational editing features. The listing is sparse on specifics like video length, resolution, and pricing. Check the product page for details on availability and whether it's free or requires a subscription to use.",
+  "category": "video-gen",
+  "relevance": 6,
+  "url": "https://www.producthunt.com/products/gemini-omni-flash",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-02T12:13:01Z"
+ },
+ {
   "id": "203af55f846d31eb",
   "kind": "launch",
   "headline": "ElevenLabs introduces Procedures in ElevenAgents",
