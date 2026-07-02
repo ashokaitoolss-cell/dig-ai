@@ -1,5 +1,29 @@
 [
  {
+  "id": "0e787ec0ed6c6057",
+  "kind": "launch",
+  "headline": "Manufact: MCP Cloud Infrastructure Platform",
+  "summary": "Manufact is a new platform for hosting and connecting AI tools via the Model Context Protocol in the cloud. It's useful for building AI-powered apps but sits in the backend infrastructure layer with no direct creative surface.",
+  "detail": "Manufact is a YC S25 startup offering cloud infrastructure for MCP (Model Context Protocol), letting developers host and integrate tools and APIs without running everything locally. While relevant for AI agent and LLM app builders, it's infrastructure tooling rather than a creative or filmmaking tool.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://manufact.com",
+  "source": "Hacker News",
+  "timestamp": "2026-07-02T16:00:29Z"
+ },
+ {
+  "id": "23f36b5bd22d9af6",
+  "kind": "research",
+  "headline": "First Open-Source Diffusion Model for Speech Recognition",
+  "summary": "Researchers released a new open-source model that uses diffusion (the same approach that powers modern AI image generators) for automatic speech recognition. This could improve transcription accuracy and quality for video editing and captions.",
+  "detail": "A research team introduced the first diffusion-based approach to automatic speech recognition, bringing techniques proven in image and video generation to audio transcription. For filmmakers and motion designers, this opens doors to better automatic transcription of dialogue, interviews, voiceovers, and podcasts. Better ASR means cleaner subtitles, faster editing timelines, and more accessible videos with less manual transcription work.",
+  "category": "research",
+  "relevance": 6,
+  "url": "https://interfaze.ai/blog/the-first-open-source-diffusion-audio-asr-model",
+  "source": "Hacker News",
+  "timestamp": "2026-07-02T16:00:29Z"
+ },
+ {
   "id": "510d470d8f6ce2b9",
   "kind": "launch",
   "headline": "Google Gemini Omni Flash video generation",
