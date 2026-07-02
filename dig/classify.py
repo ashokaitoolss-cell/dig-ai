@@ -1,8 +1,12 @@
-"""Batch classification of candidate items via the Claude API."""
+"""Batch classification of candidate items.
+
+Two backends:
+  api        — Anthropic API (needs ANTHROPIC_API_KEY, pay-per-token)
+  claude-cli — headless `claude -p` (runs on a Claude subscription, no API key)
+"""
 import json
 import re
-
-from anthropic import Anthropic
+import subprocess
 
 CATEGORIES = {
     "video-gen", "image-gen", "3d", "audio-music", "editing-vfx",
@@ -16,9 +20,9 @@ SKIPPED = {"kind": "skip", "category": "other", "relevance": 1,
            "headline": "", "summary": "", "detail": ""}
 
 
-def classify_batch(items, model, prompt_template):
-    """Classify a list of items in one API call. Returns one dict per item, in order."""
-    client = Anthropic()
+def classify_batch(items, model, prompt_template, backend="api",
+                   cli_bin="claude", cli_model="haiku"):
+    """Classify a list of items in one model call. Returns one dict per item, in order."""
     payload = [
         {
             "i": i,
@@ -34,12 +38,10 @@ def classify_batch(items, model, prompt_template):
 
     last_err = None
     for _ in range(2):  # one retry on malformed output
-        message = client.messages.create(
-            model=model,
-            max_tokens=4096,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = "".join(block.text for block in message.content if block.type == "text")
+        if backend == "claude-cli":
+            text = _generate_cli(prompt, cli_bin, cli_model)
+        else:
+            text = _generate_api(prompt, model)
         try:
             results = _parse_json_array(text)
             by_index = {r["i"]: _normalize(r) for r in results
@@ -48,6 +50,26 @@ def classify_batch(items, model, prompt_template):
         except (ValueError, KeyError, TypeError) as exc:
             last_err = exc
     raise ValueError("classifier returned unparseable output: %s" % last_err)
+
+
+def _generate_api(prompt, model):
+    from anthropic import Anthropic
+    message = Anthropic().messages.create(
+        model=model,
+        max_tokens=4096,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return "".join(block.text for block in message.content if block.type == "text")
+
+
+def _generate_cli(prompt, cli_bin, cli_model):
+    proc = subprocess.run(
+        [cli_bin, "-p", "--model", cli_model],
+        input=prompt.encode("utf-8"), capture_output=True, timeout=900)
+    if proc.returncode != 0:
+        raise RuntimeError("claude CLI failed: %s" %
+                           proc.stderr.decode("utf-8", "ignore")[:300])
+    return proc.stdout.decode("utf-8", "ignore")
 
 
 def _parse_json_array(text):

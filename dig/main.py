@@ -61,21 +61,23 @@ def _is_fuzzy_dup(title_norm, domain, entries):
     return False
 
 
-def dedupe(items, state, log):
+def dedupe(items, state, log, ignore_history=False):
     """Drop exact repeats (seen hash) and cross-source repeats of the same
-    launch (same target domain + similar title, or near-identical title)."""
+    launch (same target domain + similar title, or near-identical title).
+    With ignore_history, only in-batch duplicates are dropped (backfill)."""
     cutoff = time.time() - RECENT_WINDOW_DAYS * 86400
     state["recent"] = [entry for entry in state["recent"] if entry[0] > cutoff]
+    history = [] if ignore_history else state["recent"]
     fresh, batch_titles = [], []
     for item in items:
         if not item.get("title") or not item.get("url"):
             continue
         digest = util.item_hash(item)
-        if digest in state["seen"]:
+        if not ignore_history and digest in state["seen"]:
             continue
         title_norm = util.norm_title(item["title"])
         domain = util.domain_of(item["url"])
-        if _is_fuzzy_dup(title_norm, domain, state["recent"]) or \
+        if _is_fuzzy_dup(title_norm, domain, history) or \
            _is_fuzzy_dup(title_norm, domain, batch_titles):
             state["seen"][digest] = util.now_iso()
             log.append({"ts": util.now_iso(), "event": "fuzzy_dup",
@@ -92,16 +94,17 @@ def mark_seen(item, state):
     state["recent"].append([time.time(), item["_domain"], item["_title_norm"]])
 
 
-def run(dry_run=False, seed=False):
+def run(dry_run=False, seed=False, backfill=False):
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     sources = yaml.safe_load((ROOT / "sources.yaml").read_text())["sources"]
     util.set_delay(cfg.get("request_delay_seconds", 1.5))
     topic = os.environ.get("NTFY_TOPIC", "")
+    backend = cfg.get("classifier_backend", "api")
 
     if not seed and not dry_run:
-        if not os.environ.get("ANTHROPIC_API_KEY"):
+        if backend == "api" and not os.environ.get("ANTHROPIC_API_KEY"):
             sys.exit("ANTHROPIC_API_KEY is not set")
-        if not topic:
+        if not topic and not backfill:
             sys.exit("NTFY_TOPIC is not set")
 
     state = st_mod.load(SEEN_PATH)
@@ -109,8 +112,15 @@ def run(dry_run=False, seed=False):
 
     print("[1/4] fetching sources")
     items = fetch_all(sources, state, log)
+    if backfill:
+        # backfill re-publishes current items from news sources into the feed
+        # (no notifications); registries would flood it with old model pages
+        registry_types = {"fal", "replicate", "huggingface"}
+        src_type = {s["id"]: s.get("type") for s in sources}
+        items = [it for it in items
+                 if src_type.get(it.get("source_id")) not in registry_types]
     print("[2/4] deduplicating")
-    fresh = dedupe(items, state, log)
+    fresh = dedupe(items, state, log, ignore_history=backfill)
     print("  %d fetched, %d new" % (len(items), len(fresh)))
 
     warnings = sorted(sid for sid, n in state["failures"].items()
@@ -140,7 +150,11 @@ def run(dry_run=False, seed=False):
         for i in range(0, len(fresh), batch_size):
             chunk = fresh[i:i + batch_size]
             try:
-                results.extend(classify_batch(chunk, cfg["classifier_model"], prompt))
+                results.extend(classify_batch(
+                    chunk, cfg["classifier_model"], prompt, backend=backend,
+                    cli_bin=cfg.get("classifier_cli_bin", "claude"),
+                    cli_model=cfg.get("classifier_cli_model", "haiku")))
+                print("  · classified %d/%d" % (min(i + batch_size, len(fresh)), len(fresh)))
             except Exception as exc:
                 # leave the chunk unseen so the next run retries it
                 log.append({"ts": util.now_iso(), "event": "classify_error",
@@ -172,6 +186,8 @@ def run(dry_run=False, seed=False):
                 "timestamp": util.now_iso(),
             }
             launches.append(entry)
+            if backfill:
+                continue  # backfill fills the feed silently — no pings
             # launches ping at the normal bar; research/funding only when big
             notify_min = cfg.get("relevance_threshold", 6) if result["kind"] == "launch" \
                 else cfg.get("news_notify_threshold", 8)
@@ -221,9 +237,11 @@ def main():
                         help="fetch + classify, print instead of notify, write nothing")
     parser.add_argument("--seed", action="store_true",
                         help="mark everything currently visible as seen, send nothing")
+    parser.add_argument("--backfill", action="store_true",
+                        help="fill an empty feed from current news-source items, no notifications")
     args = parser.parse_args()
     seed = args.seed or os.environ.get("SEED_MODE") == "1"
-    run(dry_run=args.dry_run, seed=seed)
+    run(dry_run=args.dry_run, seed=seed, backfill=args.backfill)
 
 
 if __name__ == "__main__":

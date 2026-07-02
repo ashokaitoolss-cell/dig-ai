@@ -131,3 +131,13 @@ The PWA lives in `docs/` (vanilla HTML/CSS/JS, no build step) and reads
 - **Install on your phone:** open `https://<you>.github.io/dig-ai/` — iOS
   Safari: Share → *Add to Home Screen*; Android Chrome: menu → *Install app*.
 - Unread state is per-device (localStorage). Pull down to refresh the feed.
+
+## Local mode (no API key)
+
+The engine can run on a Claude subscription instead of an API key:
+`classifier_backend: claude-cli` in config.yaml shells out to a logged-in
+`claude -p`. On this machine the radar runs via launchd
+(`~/Library/LaunchAgents/com.dig-ai.radar.plist`, every 3 h) → `~/.dig-ai/run.sh`
+(env in `~/.dig-ai/env`), which commits state + feed and pushes; GitHub Pages
+serves the app. The cloud workflow is disabled but kept for API-key use.
+`python -m dig.main --backfill` fills an empty feed once, without notifications.
