@@ -1,5 +1,17 @@
 [
  {
+  "id": "f5f16a9fd799cc63",
+  "kind": "launch",
+  "headline": "MotionLoom: open-source video-as-code creation language",
+  "summary": "MotionLoom is a programming language where you write code to create videos instead of dragging things in an editor. For motion designers, it means you can write a script once and remake the video fast if something needs to change.",
+  "detail": "It's an open-source project that treats video as something you describe in code rather than build by clicking. You define scenes, effects, and transitions as a script, which you can rerun and tweak quickly. It's early-stage on Hacker News, but useful if you like coding more than GUI tools and want to automate and iterate on motion work.",
+  "category": "creative-platform",
+  "relevance": 6,
+  "url": "https://lovelyzombieyho.github.io/anica-landing-page/motionloom/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-02T18:01:30Z"
+ },
+ {
   "id": "0e787ec0ed6c6057",
   "kind": "launch",
   "headline": "Manufact: MCP Cloud Infrastructure Platform",
