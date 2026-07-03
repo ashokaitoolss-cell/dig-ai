@@ -1,5 +1,17 @@
 [
  {
+  "id": "e29a8bbb0a777ff9",
+  "kind": "funding",
+  "headline": "Google DeepMind and A24 announce research partnership",
+  "summary": "Google DeepMind and A24 announced a new research partnership described as first-of-its-kind. For an AI filmmaker, a frontier AI lab collaborating with a major entertainment company signals serious investment in creative AI applications.",
+  "detail": "Google DeepMind and entertainment company A24 announced a research partnership. This collaboration between a frontier AI research lab and major film company is notable for someone building tools and workflows around AI-driven filmmaking and motion design.",
+  "category": "funding",
+  "relevance": 7,
+  "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+  "source": "Google DeepMind",
+  "timestamp": "2026-07-03T16:48:45Z"
+ },
+ {
   "id": "9ae9375fededfe24",
   "kind": "launch",
   "headline": "LongCat-Video text-to-video model",
