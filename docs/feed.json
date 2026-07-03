@@ -1,5 +1,17 @@
 [
  {
+  "id": "073af51c773d4068",
+  "kind": "launch",
+  "headline": "Krea-2 depth control net released on Hugging Face",
+  "summary": "A new depth control model for image-to-image that lets you guide transforms using depth maps for pixel-perfect control. Useful if you build ComfyUI workflows or need depth-aware consistency in motion design.",
+  "detail": "Depth control nets let you lock depth structure while modifying images, giving you more control than plain image-to-image. This Krea-2 variant just landed on Hugging Face with minimal engagement so far. It's fresh and worth testing if you use local models or ComfyUI for controlled generation in visual effects or frame compositing.",
+  "category": "image-gen",
+  "relevance": 5,
+  "url": "https://huggingface.co/Patil/Krea-2-depth-controlnet",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-03T17:57:02Z"
+ },
+ {
   "id": "e29a8bbb0a777ff9",
   "kind": "funding",
   "headline": "Google DeepMind and A24 announce research partnership",
