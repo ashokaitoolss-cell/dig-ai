@@ -1,5 +1,17 @@
 [
  {
+  "id": "cd29d6eac54c37e0",
+  "kind": "launch",
+  "headline": "Much: Local-first AI workspace with in-browser Python",
+  "summary": "Much is a new workspace tool that lets you run Python code directly in your browser without needing a server. It's useful if you want to build custom AI tools or automate creative workflows on your own computer.",
+  "detail": "Much lets you run Python code in your browser using WebAssembly, keeping everything on your machine. It's useful for scripting AI tasks or automating workflows without a full development setup. For a motion designer focused on visual tools like Seedance or Higgsfield, this is more a utility for custom automation than a core creative app.",
+  "category": "creative-platform",
+  "relevance": 3,
+  "url": "https://news.ycombinator.com/item?id=48783120",
+  "source": "Hacker News",
+  "timestamp": "2026-07-04T08:09:37Z"
+ },
+ {
   "id": "073af51c773d4068",
   "kind": "launch",
   "headline": "Krea-2 depth control net released on Hugging Face",
