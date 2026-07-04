@@ -1,5 +1,17 @@
 [
  {
+  "id": "e46b59a02b668b64",
+  "kind": "research",
+  "headline": "LLM agent security: payload-less skills vulnerability",
+  "summary": "Researchers found a way to attack AI agent systems without injecting visible code, by exploiting the functions agents use. It matters for filmmakers building custom AI workflows, since understanding these gaps helps keep your tool chains safer.",
+  "detail": "The paper shows how attackers could compromise an AI agent's behavior through its \"skills\" — the functions it calls — without needing to insert obvious malicious code. This is niche security research rather than a creative capability. It's relevant mostly if you're building custom agent pipelines or chaining multiple tools together in production work. The research highlights a design gap in how AI systems validate what their tools actually do.",
+  "category": "research",
+  "relevance": 2,
+  "url": "https://arxiv.org/abs/2605.14460",
+  "source": "Hacker News",
+  "timestamp": "2026-07-04T23:31:31Z"
+ },
+ {
   "id": "6f1923d9b41781ec",
   "kind": "launch",
   "headline": "Apple Foundation Model integrated in Xcode Beta",
