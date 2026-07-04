@@ -1,5 +1,17 @@
 [
  {
+  "id": "6f1923d9b41781ec",
+  "kind": "launch",
+  "headline": "Apple Foundation Model integrated in Xcode Beta",
+  "summary": "Apple added a new AI model to Xcode Beta that developers can use. It's unclear what it's for or if it helps with filmmaking.",
+  "detail": "Apple released a foundation model available in Xcode Beta. The announcement doesn't explain what the model does or what it's built for. Without knowing if it handles images, video, or just text, it's hard to know if this would be useful for filmmakers working in the Apple ecosystem.",
+  "category": "model-infra",
+  "relevance": 5,
+  "url": "https://gist.github.com/voxels/b6ea737dd127745f9af009ebd038ded4",
+  "source": "Hacker News",
+  "timestamp": "2026-07-04T22:01:56Z"
+ },
+ {
   "id": "fa4bd635b8e8d1fb",
   "kind": "launch",
   "headline": "Bernini-R-LightX2V 4-step image conversion model",
