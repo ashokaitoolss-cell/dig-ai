@@ -1,5 +1,17 @@
 [
  {
+  "id": "fa4bd635b8e8d1fb",
+  "kind": "launch",
+  "headline": "Bernini-R-LightX2V 4-step image conversion model",
+  "summary": "A new image-to-image model that works in four steps. It's completely new with almost no users yet.",
+  "detail": "Bernini-R-LightX2V is a fresh image-to-image model released on Hugging Face. It claims to process images in just four steps instead of the typical many. With only five likes and zero downloads so far, it's unclear if the model works well or how it would fit into a creative workflow.",
+  "category": "image-gen",
+  "relevance": 2,
+  "url": "https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-04T18:51:46Z"
+ },
+ {
   "id": "feeeae9f013ddcc7",
   "kind": "launch",
   "headline": "New text-to-video model on Hugging Face",
