@@ -1,5 +1,17 @@
 [
  {
+  "id": "359e33905e7faa5c",
+  "kind": "launch",
+  "headline": "CircleChat: AI agent team workspace platform",
+  "summary": "CircleChat is a workspace where you manage multiple AI agents together using chat, task lists, and control interfaces. This is technical infrastructure for coordinating agents, not a creative tool for making videos or images.",
+  "detail": "CircleChat launched on Product Hunt with Slack-like messaging, task boards, and management controls for AI agents. It's designed for teams to supervise and coordinate AI workflows, but offers no direct creative surface for filmmakers or motion designers.",
+  "category": "model-infra",
+  "relevance": 1,
+  "url": "https://www.producthunt.com/products/circlechat",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-05T07:31:51Z"
+ },
+ {
   "id": "e46b59a02b668b64",
   "kind": "research",
   "headline": "LLM agent security: payload-less skills vulnerability",
