@@ -1,5 +1,17 @@
 [
  {
+  "id": "b2f1d55a3c85f6b7",
+  "kind": "launch",
+  "headline": "Clone: swap products in viral video reels",
+  "summary": "A tool that replaces products visible in existing videos with your own items. It could speed up creating product-focused videos if the swapping is automatic.",
+  "detail": "Clone is a new tool for product replacement in video reels. It appears to let you take an existing viral video and swap out the products shown for your own. Limited details are available from the initial announcement, but the tool could be useful for creators making product videos or commercials.",
+  "category": "editing-vfx",
+  "relevance": 4,
+  "url": "https://quinn.live/clone/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-06T06:20:07Z"
+ },
+ {
   "id": "d197a8af385785c1",
   "kind": "launch",
   "headline": "LTX-Best-Face-ID: text-to-video model launches",
