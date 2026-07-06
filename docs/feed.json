@@ -1,5 +1,17 @@
 [
  {
+  "id": "33bcdcb4f079cf47",
+  "kind": "launch",
+  "headline": "Stanley Studio: AI video editor that edits like humans",
+  "summary": "Stanley Studio is an AI tool that automatically edits your videos the way a professional editor would. It saves you hours by making smart choices about cuts, timing, and transitions on its own.",
+  "detail": "Stanley Studio is positioned as an AI video editor that thinks and edits like a human professional. Based on the Product Hunt listing, it appears to be a newly launched tool designed to handle the tedious editing work automatically, making it useful for filmmakers and motion designers who need faster turnarounds. The tool fits directly into a creator's workflow by handling editorial decisions that would normally require manual work.",
+  "category": "editing-vfx",
+  "relevance": 8,
+  "url": "https://www.producthunt.com/products/stanley-studio",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-06T07:04:26Z"
+ },
+ {
   "id": "b2f1d55a3c85f6b7",
   "kind": "launch",
   "headline": "Clone: swap products in viral video reels",
