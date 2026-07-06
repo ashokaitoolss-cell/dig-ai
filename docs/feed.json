@@ -1,5 +1,17 @@
 [
  {
+  "id": "4cb508cdb813ce5f",
+  "kind": "launch",
+  "headline": "Gemini Omni Flash and Nano Banana 2 Lite in Recraft Studio",
+  "summary": "Two new AI models just arrived in Recraft Studio, a design and image tool. Now you can make images with the latest AI without switching between different tools.",
+  "detail": "Recraft Studio added two new models in July 2026: Google's Gemini Omni Flash and Nano Banana 2 Lite. Both arrived in the platform the same week they launched. Now filmmakers and designers can create images using the newest AI models directly in Recraft, without bouncing between separate tools.",
+  "category": "image-gen",
+  "relevance": 7,
+  "url": "https://www.recraft.ai/blog/gemini-omni-flash-and-nano-banana-2-lite-land-in-recraft-studio",
+  "source": "Recraft",
+  "timestamp": "2026-07-06T13:55:21Z"
+ },
+ {
   "id": "b4f608c1fc1368ac",
   "kind": "launch",
   "headline": "Nepali text-to-speech model on Hugging Face",
