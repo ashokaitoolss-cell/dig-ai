@@ -1,5 +1,29 @@
 [
  {
+  "id": "aae09b8988672f81",
+  "kind": "launch",
+  "headline": "Video Effects SDK for creating face avatars",
+  "summary": "A new SDK for creating and controlling digital face avatars in video effects. This lets filmmakers add custom characters and digital faces to their projects without shooting real actors.",
+  "detail": "The Video Effects SDK provides tools for creating and manipulating face avatars. Avatar creation and character effects are key parts of modern AI filmmaking, especially for character consistency and digital characters. More details are available at effectssdk.ai.",
+  "category": "avatar-lipsync",
+  "relevance": 5,
+  "url": "https://effectssdk.ai/sdk/dev/avatars.html",
+  "source": "Hacker News",
+  "timestamp": "2026-07-06T03:37:07Z"
+ },
+ {
+  "id": "c2067939bb276b83",
+  "kind": "launch",
+  "headline": "clip.video auto-generates vertical clips from videos",
+  "summary": "An automated tool that extracts short clips from long videos and podcasts in vertical format. This saves filmmakers time by handling the repetitive work of cutting content into social media-ready pieces.",
+  "detail": "clip.video automatically pulls short clips out of longer video content and formats them vertically for social platforms. The tool does the cutting and formatting work automatically, which saves time in the content repurposing workflow. This is useful for filmmakers and content creators who need to turn long-form videos into bite-sized social content. Find it at clip.video.",
+  "category": "editing-vfx",
+  "relevance": 6,
+  "url": "https://clip.video/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-06T03:37:07Z"
+ },
+ {
   "id": "d0c3ccce97e83b13",
   "kind": "launch",
   "headline": "Sulphur-2-base text-to-video model",
