@@ -1,5 +1,29 @@
 [
  {
+  "id": "4ec2ed2ec9be3ce5",
+  "kind": "launch",
+  "headline": "LTX 2.3 fine-tune for product ad videos",
+  "summary": "A text-to-video model trained specifically to make product advertisement videos. Useful as another option if you make marketing content or product films.",
+  "detail": "This is a new Hugging Face model endpoint based on LTX, fine-tuned to create product-focused video ads from text prompts. It was recently created with 6 likes and no downloads yet. Available as SOLRICKS/ltx-2.3-product-ad-style on Hugging Face. Filmmakers can use it to generate product videos with built-in styling for ads.",
+  "category": "video-gen",
+  "relevance": 5,
+  "url": "https://huggingface.co/SOLRICKS/ltx-2.3-product-ad-style",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-06T17:36:30Z"
+ },
+ {
+  "id": "e53e88db36ae0eba",
+  "kind": "launch",
+  "headline": "Kling 3.0 launches with new video generation capabilities",
+  "summary": "Kling 3.0 is a major update to the Kling video tool you already use every day. It brings new features that make creating AI videos faster and better for filmmaking and motion design.",
+  "detail": "Kling 3.0 is the next major version of Kling, the AI video generator. Higgsfield has published a guide to walk you through the new capabilities and how to use them. This update represents a significant step forward in AI video generation for creative work. You can access it through Higgsfield, your main platform for video creation tools.",
+  "category": "video-gen",
+  "relevance": 9,
+  "url": "https://higgsfield.ai/blog/Expectations-from-Kling-3.0-User-Discussions-on-Updates",
+  "source": "Higgsfield",
+  "timestamp": "2026-07-06T17:36:30Z"
+ },
+ {
   "id": "4cb508cdb813ce5f",
   "kind": "launch",
   "headline": "Gemini Omni Flash and Nano Banana 2 Lite in Recraft Studio",
