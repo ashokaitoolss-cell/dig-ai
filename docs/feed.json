@@ -1,5 +1,17 @@
 [
  {
+  "id": "5526d4baf5364aad",
+  "kind": "launch",
+  "headline": "LTX2.3-10Eros-1.3 GGUF model now available",
+  "summary": "A new compressed version of LTX (image-to-video generation) was posted to Hugging Face. Quantized models run faster and cheaper, which matters for anyone trying out the model locally.",
+  "detail": "This is a GGUF-quantized version of the LTX video model, designed for image-to-video generation. Quantization shrinks the model file and speeds up inference, making it practical to run on regular hardware instead of a cloud GPU. It just landed on Hugging Face with minimal engagement so far, suggesting it's very new. Worth trying if you want to test LTX without paying per-generation API costs.",
+  "category": "video-gen",
+  "relevance": 5,
+  "url": "https://huggingface.co/Abiray/LTX2.3-10Eros-1.3-GGUF",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-06T08:30:31Z"
+ },
+ {
   "id": "33bcdcb4f079cf47",
   "kind": "launch",
   "headline": "Stanley Studio: AI video editor that edits like humans",
