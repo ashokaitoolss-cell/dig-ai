@@ -1,5 +1,17 @@
 [
  {
+  "id": "d197a8af385785c1",
+  "kind": "launch",
+  "headline": "LTX-Best-Face-ID: text-to-video model launches",
+  "summary": "A new text-to-video model posted on Hugging Face. It's fresh and untested, with no downloads yet.",
+  "detail": "A new Hugging Face model for generating video from text prompts. It has 5 likes but zero downloads shortly after creation, so there's no feedback on quality yet.",
+  "category": "video-gen",
+  "relevance": 3,
+  "url": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-06T05:43:46Z"
+ },
+ {
   "id": "aae09b8988672f81",
   "kind": "launch",
   "headline": "Video Effects SDK for creating face avatars",
