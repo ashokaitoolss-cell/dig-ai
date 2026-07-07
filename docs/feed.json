@@ -1,5 +1,29 @@
 [
  {
+  "id": "e6c58324f47bbea9",
+  "kind": "launch",
+  "headline": "Subtext visualizes LLM reasoning step by step",
+  "summary": "Subtext is a tool that shows how AI models think when solving problems. It's mainly for developers building AI systems, not for filmmakers making videos or images.",
+  "detail": "Subtext is an open-source GitHub project that visualizes how large language models reason through tasks, showing each thinking step. It received 15 upvotes on Hacker News from developers. While useful for understanding AI behavior, it doesn't connect to video generation, image synthesis, or the creative tools filmmakers use.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://github.com/ninjahawk/Subtext",
+  "source": "Hacker News",
+  "timestamp": "2026-07-07T05:33:07Z"
+ },
+ {
+  "id": "91d35ff2dea2aa02",
+  "kind": "launch",
+  "headline": "Otari: open-source LLM control plane from Mozilla",
+  "summary": "Otari is a tool for managing and running large language models across different systems. It's built for developers and teams running AI infrastructure, not for making videos or creative content.",
+  "detail": "Otari is an open-source project from Mozilla's AI team that provides a control plane for managing large language models in production. It helps coordinate and monitor multiple LLM deployments from one place. The project received 14 upvotes on Hacker News. Like most infrastructure tools, it targets developers and DevOps teams rather than filmmakers.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://github.com/mozilla-ai/otari",
+  "source": "Hacker News",
+  "timestamp": "2026-07-07T05:33:07Z"
+ },
+ {
   "id": "4ec2ed2ec9be3ce5",
   "kind": "launch",
   "headline": "LTX 2.3 fine-tune for product ad videos",
