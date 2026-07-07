@@ -1,5 +1,17 @@
 [
  {
+  "id": "df9398c6a3bdafdc",
+  "kind": "launch",
+  "headline": "Meta launches Muse Image and Muse Video",
+  "summary": "Meta released two new generative models called Muse Image and Muse Video. These give filmmakers and designers more options for generating images and video content.",
+  "detail": "Meta announced Muse Image and Muse Video, new generative models from a major lab. The models cover both image and video generation, expanding Meta's generative AI toolkit. They represent a fresh option for creators working in content generation workflows.",
+  "category": "video-gen",
+  "relevance": 8,
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/?_fb_noscript=1",
+  "source": "Hacker News",
+  "timestamp": "2026-07-07T19:34:34Z"
+ },
+ {
   "id": "fd81921fb35bc5de",
   "kind": "launch",
   "headline": "Meta launches Muse Image for text-to-image generation",
