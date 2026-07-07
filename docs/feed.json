@@ -1,5 +1,29 @@
 [
  {
+  "id": "02e8ce05d9fd2eb1",
+  "kind": "launch",
+  "headline": "Glideo auto-edits screen recordings",
+  "summary": "Glideo watches your screen recording and automatically cuts out the boring parts and silences. If you make tutorials or demo videos, you save hours by not editing manually.",
+  "detail": "The tool uses AI to trim and edit screen recordings automatically, removing pauses and dead time. This is great for making product demos, software tutorials, or how-to videos where you need quick turnaround. You get an edited version that you can then touch up in your normal editing software instead of starting from scratch.",
+  "category": "editing-vfx",
+  "relevance": 6,
+  "url": "https://www.producthunt.com/products/glideo",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-07T07:12:34Z"
+ },
+ {
+  "id": "22113db7b12d79dd",
+  "kind": "launch",
+  "headline": "LongCat-2.0 language model released",
+  "summary": "LongCat-2.0 is a new large language model released. It's not something you'd use directly for filmmaking, but it could be built into video or image tools in the future.",
+  "detail": "The model has 1.6 trillion parameters and was trained on specialized AI hardware. For motion designers and filmmakers, this is mainly interesting if creative tools add it as a backend. On its own, an LLM doesn't generate video or images without being integrated into generative tools.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://www.producthunt.com/products/longcat",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-07T07:12:35Z"
+ },
+ {
   "id": "e6c58324f47bbea9",
   "kind": "launch",
   "headline": "Subtext visualizes LLM reasoning step by step",
