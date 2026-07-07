@@ -1,5 +1,17 @@
 [
  {
+  "id": "fd81921fb35bc5de",
+  "kind": "launch",
+  "headline": "Meta launches Muse Image for text-to-image generation",
+  "summary": "Muse Image is Meta's new tool for generating images from text descriptions. It could give you another option for quick image creation, though how it compares to Midjourney or Flux isn't clear from the announcement.",
+  "detail": "Meta announced Muse Image, a new image generation model. The snippet doesn't provide specifics on pricing, resolution, or access, but it's designed for general image creation. You could test it as an alternative to your current tools, though frontier models like Midjourney and Flux have established strong positions in creative workflows.",
+  "category": "image-gen",
+  "relevance": 6,
+  "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-07T19:01:17Z"
+ },
+ {
   "id": "fd99710990d9927d",
   "kind": "launch",
   "headline": "Alibaba DreamX-World realtime world model",
