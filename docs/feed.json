@@ -1,5 +1,17 @@
 [
  {
+  "id": "97307379d764d988",
+  "kind": "launch",
+  "headline": "EPFL releases NEvo text-to-video model on Hugging Face",
+  "summary": "A new text-to-video model just uploaded to Hugging Face by EPFL researchers. If you want to try fresh approaches to video generation beyond the mainstream tools, this is worth testing.",
+  "detail": "NEvo is a text-to-video model from EPFL's Neural AI lab, just released on Hugging Face. It's brand new with only 1 like and 4 downloads so far, so almost no one has tried it yet. The model name hints at a novel approach, possibly based on neuroevolution. You can download it directly and test it in your pipeline—though its quality and speed compared to Seedance or Runway are still unknown.",
+  "category": "video-gen",
+  "relevance": 4,
+  "url": "https://huggingface.co/epfl-neuroai/NEvo",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-07T12:09:53Z"
+ },
+ {
   "id": "36817465a3afece9",
   "kind": "launch",
   "headline": "Vspark text-to-video model on Hugging Face",
