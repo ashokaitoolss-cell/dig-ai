@@ -1,5 +1,77 @@
 [
  {
+  "id": "36817465a3afece9",
+  "kind": "launch",
+  "headline": "Vspark text-to-video model on Hugging Face",
+  "summary": "Vspark is a new text-to-video model posted on Hugging Face. It just launched with minimal downloads, so it's unclear if it offers advantages over existing tools.",
+  "detail": "Vspark appeared as a text-to-video model with only 16 downloads and no ratings yet. The snippet provides no information on what makes it different from Kling, Runway, or Seedance. Without documentation or feedback, it's likely a niche fine-tune rather than a genuine breakthrough.",
+  "category": "video-gen",
+  "relevance": 4,
+  "url": "https://huggingface.co/AyaanAhmed123/Vspark",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-07T08:52:18Z"
+ },
+ {
+  "id": "e120d03b244b5934",
+  "kind": "launch",
+  "headline": "Specialized NSFW SDXL variant",
+  "summary": "A text-to-image model based on SDXL, focused on a specific style and use case. Not relevant to your work as a filmmaker and motion designer.",
+  "detail": "This is an SDXL fine-tune for a niche audience. With zero likes and minimal downloads, it has no community validation. The name suggests it targets a specific aesthetic, not general film and motion work.",
+  "category": "image-gen",
+  "relevance": 1,
+  "url": "https://huggingface.co/scarfew/wai-nsfw-illustrious-sdxl-v140-sdxl",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-07T08:52:18Z"
+ },
+ {
+  "id": "b7c6ed0b8f210201",
+  "kind": "launch",
+  "headline": "Wan2.2 image-to-video model for Mac",
+  "summary": "Wan2.2 is an image-to-video model optimized to run fast on Mac computers. It's an existing model in a new format, not a brand-new creative capability.",
+  "detail": "Wan2.2-I2V is an existing image-to-video model quantized to 4-bit format for Apple's MLX framework. This optimization lets it run efficiently on Mac. With 29 downloads and no community feedback yet, it's unproven. Format optimization is useful for deployment but doesn't add new creative features.",
+  "category": "video-gen",
+  "relevance": 4,
+  "url": "https://huggingface.co/lBroth/Wan2.2-I2V-A14B-MLX-bf16",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-07T08:52:18Z"
+ },
+ {
+  "id": "a086b41e6e42299a",
+  "kind": "launch",
+  "headline": "Terrain-focused ControlNet model",
+  "summary": "A specialized ControlNet designed for terrain generation in images. So narrow that it's unlikely you'd use it regularly in your work.",
+  "detail": "This is a ControlNet fine-tune focused on terrain. With 19 downloads and no ratings, it hasn't been tested by the community. Terrain generation is one narrow slice of image control, making this tool useful only for specific projects.",
+  "category": "editing-vfx",
+  "relevance": 2,
+  "url": "https://huggingface.co/tstruk/under-fire-terrain-controlnet",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-07T08:52:18Z"
+ },
+ {
+  "id": "e71e97df6f18d36c",
+  "kind": "launch",
+  "headline": "ACE lightweight text-to-audio model",
+  "summary": "ACE is a text-to-audio model optimized for fast inference. Audio tools help with film, but this one is obscure with no adoption signals.",
+  "detail": "ACE-Step is a text-to-audio model formatted for MLX with 4-bit quantization. With only 12 downloads, it hasn't proven itself. Text-to-audio can be useful for sound design, but many mature options already exist and this one lacks validation.",
+  "category": "audio-music",
+  "relevance": 2,
+  "url": "https://huggingface.co/ddalcu/ACE-Step-1.5-XL-Turbo-MLX-Serve-4bit",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-07T08:52:18Z"
+ },
+ {
+  "id": "5023c32a489bf1a5",
+  "kind": "launch",
+  "headline": "Kokoro lightweight text-to-speech model",
+  "summary": "Kokoro is an 82-million-parameter text-to-speech model made for efficient performance. Useful for film voiceovers, but not a frontier tool and many mature alternatives exist.",
+  "detail": "Kokoro-82M is a small, optimized text-to-speech model with only 82 million parameters. With 29 downloads and zero ratings, the community hasn't validated it yet. While text-to-speech helps with narration in films, established TTS options like ElevenLabs and others are more proven.",
+  "category": "audio-music",
+  "relevance": 3,
+  "url": "https://huggingface.co/ugahost991/Kokoro-82M",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-07T08:52:18Z"
+ },
+ {
   "id": "dbede54ac0368260",
   "kind": "launch",
   "headline": "Lightricks LTX distilled community model on HF",
