@@ -1,5 +1,17 @@
 [
  {
+  "id": "fd99710990d9927d",
+  "kind": "launch",
+  "headline": "Alibaba DreamX-World realtime world model",
+  "summary": "Alibaba released a new world model that can generate and simulate 3D worlds in real-time. It's useful for filmmakers who need to create dynamic environments, camera movements, and interactive scenes without traditional modeling.",
+  "detail": "DreamX-World is Alibaba's new realtime world model that generates interactive 3D environments. World models simulate physical spaces and create video sequences by controlling cameras and objects within a scene. This is valuable for generating establishing shots, building environments for motion design, and creating dynamic backgrounds faster than traditional rendering workflows.",
+  "category": "video-gen",
+  "relevance": 7,
+  "url": "https://twitter.com/reactorworld/status/2074516290442592418",
+  "source": "Hacker News",
+  "timestamp": "2026-07-07T17:00:51Z"
+ },
+ {
   "id": "97307379d764d988",
   "kind": "launch",
   "headline": "EPFL releases NEvo text-to-video model on Hugging Face",
