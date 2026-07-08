@@ -1,5 +1,29 @@
 [
  {
+  "id": "109575b6ebad45e6",
+  "kind": "launch",
+  "headline": "Jamboree multiplayer synthesizer launches",
+  "summary": "Jamboree lets you and others make music together in real time using synthesizers. This helps filmmakers compose original background music and soundscapes without hiring a full music team.",
+  "detail": "Jamboree is a new multiplayer synthesizer that lets musicians collaborate in real time. You can layer multiple parts, switch between instruments, and build complete tracks with remote teammates. This is useful for indie filmmakers who need original music and sound design but want faster, cheaper creation than hiring a traditional composer. The collaborative aspect means you can get feedback and iterate quickly on music for your videos.",
+  "category": "audio-music",
+  "relevance": 6,
+  "url": "https://www.producthunt.com/products/jamboree",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-08T07:04:09Z"
+ },
+ {
+  "id": "35e8a379bc22b48c",
+  "kind": "launch",
+  "headline": "AssemblyAI Universal-3.5 Pro speech model",
+  "summary": "Universal-3.5 Pro is an improved speech recognition model that understands more languages and can tell speakers apart better. For video makers, this means cleaner captions and transcripts, especially when your video has multiple people talking.",
+  "detail": "AssemblyAI updated its Universal-3.5 model with better language support, improved diarization to separate speakers, and native code switching to handle multiple languages in one clip. These improvements make transcription more accurate, which saves time on captioning and subtitling your videos. While not a creative generation tool, accurate transcripts are essential for accessible videos and for extracting quotes or dialogue for editing. Better diarization is especially useful if your videos include interviews or multiple voice tracks.",
+  "category": "model-infra",
+  "relevance": 3,
+  "url": "https://www.producthunt.com/products/assemblyai",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-08T07:04:10Z"
+ },
+ {
   "id": "f025475a806b5cde",
   "kind": "launch",
   "headline": "Hugging Face text-to-video model with vintage style",
