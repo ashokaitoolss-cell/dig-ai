@@ -1,5 +1,17 @@
 [
  {
+  "id": "46177a01e60fe933",
+  "kind": "launch",
+  "headline": "Makoto — agent behavior verification tool",
+  "summary": "Makoto is a tool that checks whether AI agents are telling the truth about what they did, catching contradictions between claims and logged actions. It's useful for anyone building or debugging AI agents, but not directly relevant to video and image creation.",
+  "detail": "Makoto is an open-source project shown on Hacker News that validates AI agent behavior by comparing stated claims against actual logged actions. It catches when agents make false or contradictory statements about their own work. This is a developer-focused debugging and safety tool — useful for agent infrastructure but no creative surface for filmmaking or motion design work.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://github.com/Clear-Sights/Makoto",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T18:15:43Z"
+ },
+ {
   "id": "ac77a77cdf998d56",
   "kind": "launch",
   "headline": "PocketTTS-raven: Fast in-browser TTS with voice cloning",
