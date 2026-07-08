@@ -1,5 +1,29 @@
 [
  {
+  "id": "ac77a77cdf998d56",
+  "kind": "launch",
+  "headline": "PocketTTS-raven: Fast in-browser TTS with voice cloning",
+  "summary": "A new text-to-speech tool that runs locally in the browser and clones voices. Filmmakers can use it to generate custom voiceovers and character voices without sending audio to cloud servers.",
+  "detail": "PocketTTS-raven is an open-source text-to-speech tool built to run natively in web browsers. It includes voice cloning, so you can create speech in custom voices without uploading audio externally. For AI filmmakers, this means adding narration or character dialogue to your films without API calls or cloud delays. The local approach keeps all your audio work on your machine.",
+  "category": "audio-music",
+  "relevance": 6,
+  "url": "https://pantel.is/projects/pocket-tts-raven/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T17:31:35Z"
+ },
+ {
+  "id": "d7499a6963c6e5c4",
+  "kind": "launch",
+  "headline": "OpenAI introduces GPT-Live voice models",
+  "summary": "OpenAI released new voice models for more natural conversations in ChatGPT Voice. This is interesting as a frontier voice model, but it's built for chat interactions rather than creative audio generation.",
+  "detail": "GPT-Live is a new generation of voice models from OpenAI that now power ChatGPT's voice features. The models create more natural sounding voice interactions for real-time conversation. For an AI filmmaker, this could potentially be explored for character dialogue or narration in AI films, though it wasn't designed specifically for creative content generation like your primary tools.",
+  "category": "audio-music",
+  "relevance": 3,
+  "url": "https://openai.com/index/introducing-gpt-live",
+  "source": "OpenAI",
+  "timestamp": "2026-07-08T17:31:36Z"
+ },
+ {
   "id": "86fd4cfac016e35a",
   "kind": "launch",
   "headline": "Meta releases MuseImage and MuseVideo models",
