@@ -1,5 +1,65 @@
 [
  {
+  "id": "cb7500cec3579c70",
+  "kind": "launch",
+  "headline": "Meta launches Muse Image and Video generation models",
+  "summary": "Meta released new AI tools that create images and videos from text descriptions. This matters because Meta is now competing directly with tools like Runway and Kling that filmmakers already use.",
+  "detail": "Meta announced Muse Image and Muse Video as their first in-house media generation models. This is a major milestone because Meta is bringing its massive resources into the generative media space. For motion designers and filmmakers, this means a new option from one of the world's largest tech companies, with the resources to compete with established video generation tools.",
+  "category": "video-gen",
+  "relevance": 9,
+  "url": "https://twitter.com/AIatMeta/status/2074577662840832382",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T04:31:39Z"
+ },
+ {
+  "id": "e6982eaa4a0ba6ee",
+  "kind": "launch",
+  "headline": "ForkMind: Git-like version control for LLM context",
+  "summary": "ForkMind is a new tool that lets you manage AI conversation context like you manage code with Git. It is useful if you build custom AI workflows and need to test different versions.",
+  "detail": "ForkMind provides Git-like commands like branch, offload, and restore for managing LLM context. It is open source on GitHub and designed for developers building complex AI applications. While this is infrastructure rather than a creative tool, it could help filmmakers building custom AI workflows.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://github.com/Medhovarsh/forkmind",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T04:31:40Z"
+ },
+ {
+  "id": "e9fc53f3dae591a2",
+  "kind": "launch",
+  "headline": "CLRK: open-source agent runtime with safety guards",
+  "summary": "CLRK is a tool for building AI agents that run safely inside a sandbox with traffic monitoring. It is useful for developers who need to build AI systems with built-in security controls.",
+  "detail": "CLRK is an open source agent runtime using gVisor for sandboxing and MitM guardrails for traffic control. It is designed for developers who need safe, controlled AI agent execution. This is developer infrastructure with limited direct application to filmmaking workflows.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://github.com/apoxy-dev/clrk",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T04:31:40Z"
+ },
+ {
+  "id": "cff8e09f722c3909",
+  "kind": "launch",
+  "headline": "VisionBridge: adds image understanding to text LLMs",
+  "summary": "VisionBridge is a small proxy tool that gives image-understanding power to text-only language models. It is useful if you are experimenting with custom AI workflows that need both text and images.",
+  "detail": "VisionBridge is an MIT-licensed tool that acts as a proxy to add vision capabilities to text-only LLMs like GLM 5.2. It is available on GitHub. This is for developers experimenting with vision features in custom AI systems.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://github.com/thomasunise/visionbridge",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T04:31:40Z"
+ },
+ {
+  "id": "c01bb40edc7a6046",
+  "kind": "launch",
+  "headline": "Squish: local LLM inference server for Apple Silicon",
+  "summary": "Squish is a fast inference server that runs large language models directly on your Mac without cloud connectivity. It is useful if you want private, offline AI capabilities on your machine.",
+  "detail": "Squish is an inference server optimized for Apple Silicon chips (M1, M2, M3). It lets you run large language models directly on your Mac at good speed. For creators who need fast, private AI tools without sending data to the cloud, this is a practical option.",
+  "category": "model-infra",
+  "relevance": 4,
+  "url": "https://squish.run/blog/local-llm-fast-enough/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T04:31:40Z"
+ },
+ {
   "id": "df9398c6a3bdafdc",
   "kind": "launch",
   "headline": "Meta launches Muse Image and Muse Video",
