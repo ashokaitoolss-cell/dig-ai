@@ -3111,3 +3111,7 @@
 {"ts": "2026-07-08T06:40:10Z", "event": "fuzzy_dup", "source": "hackernews", "title": "From Quantum Relative Entropy to the Semiclassical Einstein Equations"}
 {"ts": "2026-07-08T06:40:20Z", "event": "classified", "source": "hackernews", "title": "I built a single endpoint that turns anything into LLM-ready data", "url": "https://ingesti.xyz", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-08T06:40:20Z", "event": "run_summary", "fetched": 1292, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-08T06:50:31Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 279}
+{"ts": "2026-07-08T06:51:17Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 279}
+{"ts": "2026-07-08T06:51:23Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 279}
+{"ts": "2026-07-08T06:51:24Z", "event": "run_summary", "fetched": 1291, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
