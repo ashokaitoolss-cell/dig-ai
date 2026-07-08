@@ -1,5 +1,29 @@
 [
  {
+  "id": "86fd4cfac016e35a",
+  "kind": "launch",
+  "headline": "Meta releases MuseImage and MuseVideo models",
+  "summary": "Meta released MuseImage and MuseVideo, two new AI tools for making images and videos. These give filmmakers and motion designers another way to create visual content with AI.",
+  "detail": "Meta announced two new AI models called MuseImage and MuseVideo. They join other video and image creation tools that filmmakers use for making content.",
+  "category": "video-gen",
+  "relevance": 7,
+  "url": "https://twitter.com/AIatMeta/status/2074577662840832382",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T13:46:00Z"
+ },
+ {
+  "id": "7c559b18c29815c5",
+  "kind": "launch",
+  "headline": "NexSub: first offline AI subtitle translator",
+  "summary": "NexSub is a tool that translates video subtitles using AI without needing the internet. It helps filmmakers share their videos with viewers in different languages.",
+  "detail": "NexSub is a new tool for translating video subtitles with AI. It works without internet by processing everything locally. Filmmakers could use this to get subtitles in other languages without uploading files.",
+  "category": "other",
+  "relevance": 3,
+  "url": "https://steelsoft.site/software/NexSub_home.html",
+  "source": "Hacker News",
+  "timestamp": "2026-07-08T13:46:02Z"
+ },
+ {
   "id": "109575b6ebad45e6",
   "kind": "launch",
   "headline": "Jamboree multiplayer synthesizer launches",
