@@ -1,5 +1,17 @@
 [
  {
+  "id": "f025475a806b5cde",
+  "kind": "launch",
+  "headline": "Hugging Face text-to-video model with vintage style",
+  "summary": "A new community model that turns text into video with a built-in vintage film look. It's made for creators who want retro aesthetics without needing to edit them in.",
+  "detail": "This is a user-uploaded Hugging Face model combining Fable 5 and LTX 2.3 with a preset vintage style filter. It was just created and has minimal traction (5 likes, zero downloads). While vintage looks are useful for certain projects, this unproven community variant is unlikely to beat the commercial tools you already use like Seedance or Kling.",
+  "category": "video-gen",
+  "relevance": 4,
+  "url": "https://huggingface.co/a3xrfgb/Fable5_Ltx2.3_vintage_style",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-08T06:29:12Z"
+ },
+ {
   "id": "cb7500cec3579c70",
   "kind": "launch",
   "headline": "Meta launches Muse Image and Video generation models",
