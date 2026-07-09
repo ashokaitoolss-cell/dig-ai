@@ -1,5 +1,29 @@
 [
  {
+  "id": "dbd41ff87bd7d832",
+  "kind": "launch",
+  "headline": "New text-to-image model: krea2_turbo_style_reference",
+  "summary": "A new text-to-image model on Hugging Face focused on style reference and control. Too new and unproven (zero downloads) to know if it's worth your time over Midjourney or Kling.",
+  "detail": "krea2_turbo_style_reference just went live as a text-to-image model designed for style-based image generation. It has 17 likes but zero downloads, so it's brand new. You could potentially set it up as a fal.ai endpoint if you want to experiment, but there's no track record yet of whether it actually improves on what you already use.",
+  "category": "image-gen",
+  "relevance": 3,
+  "url": "https://huggingface.co/ostris/krea2_turbo_style_reference",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-09T04:12:50Z"
+ },
+ {
+  "id": "fe4cee291aa4d31f",
+  "kind": "launch",
+  "headline": "Seedream 5.0 Pro image model now in ComfyUI",
+  "summary": "ByteDance released Seedream 5.0, a new image generation model with better editing and character consistency that works in ComfyUI. This gives you another high-quality image option for motion design and film work.",
+  "detail": "Seedream 5.0 Pro is now available through ComfyUI's Partner Nodes, making it accessible alongside other tools you already use. The update focuses on three things: stronger editing capabilities to refine images after generation, better character consistency for keeping faces and bodies the same across shots, and multilingual layout support. For someone building AI films and motion graphics, better character consistency means fewer retakes when you need the same character in multiple scenes.",
+  "category": "image-gen",
+  "relevance": 7,
+  "url": "https://blog.comfy.org/p/seedream-50-pro",
+  "source": "ComfyUI",
+  "timestamp": "2026-07-09T04:12:50Z"
+ },
+ {
   "id": "46177a01e60fe933",
   "kind": "launch",
   "headline": "Makoto — agent behavior verification tool",
