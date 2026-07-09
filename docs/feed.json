@@ -1,5 +1,17 @@
 [
  {
+  "id": "514be06b2fe15690",
+  "kind": "launch",
+  "headline": "FableCut: AI agents can drive browser video editor",
+  "summary": "FableCut is a new browser-based video editor that AI agents can control and automate. It lets you tell agents what edits to make and they handle cuts, transitions, and effects without manual clicking.",
+  "detail": "FableCut is a lightweight browser video editor designed so AI agents can programmatically edit video. Instead of manually cutting and layering, you describe what you want and agents execute the edits automatically. Built with zero external dependencies, making it simple and fast. For filmmakers running AI-driven workflows in Seedance or Runway, this opens up the ability to automate repetitive editing tasks and let agents help batch-process videos.",
+  "category": "editing-vfx",
+  "relevance": 7,
+  "url": "https://github.com/ronak-create/FableCut",
+  "source": "Hacker News",
+  "timestamp": "2026-07-09T14:37:06Z"
+ },
+ {
   "id": "063bb959a9ef30db",
   "kind": "launch",
   "headline": "Recraft releases vector editor for AI-generated graphics",
