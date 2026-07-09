@@ -1,5 +1,53 @@
 [
  {
+  "id": "318708489fe968d5",
+  "kind": "launch",
+  "headline": "LTX-2.3 LoRA fine-tune for animated loops",
+  "summary": "A version of the LTX video model trained to create smooth looping animations. Useful for motion designers needing seamless looping backgrounds and transitions.",
+  "detail": "This is a specialized version of LTX-2.3 designed for cinemagraphs—animations that loop seamlessly without visible jumps. Available on Hugging Face. Good for creating motion design elements, backgrounds, and transitions where seamless looping is critical.",
+  "category": "video-gen",
+  "relevance": 6,
+  "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-LoRA-Cinemagraph",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-09T16:37:30Z"
+ },
+ {
+  "id": "adf4ae6e59f92d1f",
+  "kind": "launch",
+  "headline": "Meta releases Muse Image generative model",
+  "summary": "Meta announced a new tool for generating images. Adds another option to your image generation toolbox alongside Midjourney and Flux.",
+  "detail": "Meta released Muse Image, a new generative model for creating images. It's from a major AI lab and represents another choice in the crowded image generator space. Check Meta's announcement for details on resolution, quality, and how it compares to other options you already use.",
+  "category": "image-gen",
+  "relevance": 7,
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/?_fb_noscript=1",
+  "source": "Hacker News",
+  "timestamp": "2026-07-09T16:37:31Z"
+ },
+ {
+  "id": "c29ced858bcb9886",
+  "kind": "launch",
+  "headline": "Seedream 5.0 Pro: ByteDance controllable images",
+  "summary": "ByteDance released Seedream 5.0, focusing on giving you precise control over generated images. Control matters because it lets you create your exact vision.",
+  "detail": "Seedream 5.0 Pro is ByteDance's major update emphasizing controllable image generation where you guide specific details like composition, style, and elements. This level of control is important for professional work hitting exact creative briefs. It's a meaningful upgrade from previous Seedream versions.",
+  "category": "image-gen",
+  "relevance": 8,
+  "url": "https://seedream-5.io/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-09T16:37:32Z"
+ },
+ {
+  "id": "f7b1ea7ef2adfc8e",
+  "kind": "launch",
+  "headline": "Vix Sound: AI music assistant for Ableton Live",
+  "summary": "An AI tool that works inside Ableton Live to help you create, produce, and mix music. Helpful if you need to make original music or sound for your videos.",
+  "detail": "Vix Sound is a new AI plugin for Ableton Live that helps with music creation and mixing. While music production isn't your main toolkit, filmmakers regularly need original music and sound design. This makes creating professional-quality audio accessible without deep music expertise.",
+  "category": "audio-music",
+  "relevance": 5,
+  "url": "https://vixsound.com",
+  "source": "Hacker News",
+  "timestamp": "2026-07-09T16:37:33Z"
+ },
+ {
   "id": "514be06b2fe15690",
   "kind": "launch",
   "headline": "FableCut: AI agents can drive browser video editor",
