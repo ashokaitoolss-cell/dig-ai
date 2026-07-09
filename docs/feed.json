@@ -1,5 +1,29 @@
 [
  {
+  "id": "0e74885c6c90e830",
+  "kind": "launch",
+  "headline": "Timeline Studio: browser voiceover editor with local ONNX",
+  "summary": "A web-based tool that edits AI voiceovers without uploading to the cloud. It's useful for quickly generating and editing voiceovers for video projects while keeping everything local and fast.",
+  "detail": "Timeline Studio is a browser-based voiceover editor that runs ONNX models locally on your machine, so audio processing stays on-device and private. The tool lets you generate and edit AI voiceovers directly in the browser. You can access it at video-editor.ai-creator.top.",
+  "category": "audio-music",
+  "relevance": 5,
+  "url": "https://video-editor.ai-creator.top/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-09T08:05:23Z"
+ },
+ {
+  "id": "22eb24819cb7bf4a",
+  "kind": "launch",
+  "headline": "LingBot-World 2.0: generate 3D worlds from images and text",
+  "summary": "A tool that turns images, text descriptions, and user actions into interactive 3D worlds you can explore. For filmmakers, this could generate environment and scene assets from simple descriptions or reference images.",
+  "detail": "LingBot-World 2.0 generates interactive 3D worlds based on images, text prompts, and user actions. The tool takes your image or text input and builds a navigable 3D environment you can explore. It's available as open-source on GitHub, which could help filmmakers quickly prototype scenes or generate environment assets.",
+  "category": "3d",
+  "relevance": 6,
+  "url": "https://github.com/Robbyant/lingbot-world-v2",
+  "source": "Hacker News",
+  "timestamp": "2026-07-09T08:05:23Z"
+ },
+ {
   "id": "de313aa4d09ef8a5",
   "kind": "launch",
   "headline": "New Hugging Face model for image-to-video: Lingbot World",
