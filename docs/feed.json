@@ -1,5 +1,17 @@
 [
  {
+  "id": "063bb959a9ef30db",
+  "kind": "launch",
+  "headline": "Recraft releases vector editor for AI-generated graphics",
+  "summary": "Recraft added a vector editor that lets you edit AI-made vectors right inside the app. This saves time for motion designers who no longer need to export and open separate tools to tweak graphics.",
+  "detail": "Until now, editing vectors made by Recraft meant exporting them to another program. The new vector editor lets you work on vectors directly in Recraft, keeping your whole workflow in one place. For someone building motion design assets, this means faster iteration on AI-generated graphics without bouncing between tools.",
+  "category": "editing-vfx",
+  "relevance": 6,
+  "url": "https://www.recraft.ai/blog/vector-editor",
+  "source": "Recraft",
+  "timestamp": "2026-07-09T12:22:42Z"
+ },
+ {
   "id": "f5318bea098284b2",
   "kind": "launch",
   "headline": "AI video editor that cuts your footage",
