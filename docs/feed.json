@@ -1,5 +1,17 @@
 [
  {
+  "id": "de313aa4d09ef8a5",
+  "kind": "launch",
+  "headline": "New Hugging Face model for image-to-video: Lingbot World",
+  "summary": "A brand new image-to-video model just appeared on Hugging Face. It might be worth checking out for your motion and video generation work.",
+  "detail": "This is a new model released on Hugging Face for converting images to video. It has 5 likes and 0 downloads so far. These numbers suggest it's a very recent release with no proven usage yet.",
+  "category": "video-gen",
+  "relevance": 3,
+  "url": "https://huggingface.co/robbyant/lingbot-world-v2-14b-causal-fast",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-09T05:21:00Z"
+ },
+ {
   "id": "dbd41ff87bd7d832",
   "kind": "launch",
   "headline": "New text-to-image model: krea2_turbo_style_reference",
