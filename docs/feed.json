@@ -1,5 +1,29 @@
 [
  {
+  "id": "54ee76ae9206d639",
+  "kind": "launch",
+  "headline": "OpenAI releases GPT-5.6 frontier model",
+  "summary": "OpenAI announced GPT-5.6, a new frontier LLM with improved intelligence and cost efficiency. For filmmakers, it could enhance creative workflows through better reasoning for scripting and project planning.",
+  "detail": "GPT-5.6 promises more intelligence per token and stronger performance per dollar. While not a video or image generation tool, it could support filmmakers in creative ideation, script development, and complex production planning. The model is positioned for ambitious projects requiring sophisticated reasoning.",
+  "category": "model-infra",
+  "relevance": 5,
+  "url": "https://openai.com/index/gpt-5-6",
+  "source": "OpenAI",
+  "timestamp": "2026-07-09T17:46:27Z"
+ },
+ {
+  "id": "5941cef110c0f469",
+  "kind": "launch",
+  "headline": "ChatGPT Work agent for long-form project tasks",
+  "summary": "OpenAI added a Work mode to ChatGPT that acts as an autonomous agent, taking actions across apps and files for hours-long projects. It could help filmmakers automate research, planning, and project coordination.",
+  "detail": "ChatGPT Work can now perform actions across multiple applications, maintain context over extended sessions, and turn goals into completed work. For filmmakers managing complex productions, this could handle research, shot planning, and administrative coordination. It's useful for project management but not a direct creative generation tool.",
+  "category": "creative-platform",
+  "relevance": 4,
+  "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+  "source": "OpenAI",
+  "timestamp": "2026-07-09T17:46:27Z"
+ },
+ {
   "id": "318708489fe968d5",
   "kind": "launch",
   "headline": "LTX-2.3 LoRA fine-tune for animated loops",
