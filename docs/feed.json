@@ -1,5 +1,65 @@
 [
  {
+  "id": "36094b4b7858f249",
+  "kind": "research",
+  "headline": "LLM memory needs beyond just the model weights",
+  "summary": "When you run large language models, they need way more memory than just storing the model itself. You need to know this to understand what hardware can actually run the AI tools you use.",
+  "detail": "This article digs into the hidden memory costs when running LLMs—tokenization, inference buffers, and temporary calculations all add up fast. Even quantized models that seem lightweight need more RAM than most people expect.",
+  "category": "research",
+  "relevance": 4,
+  "url": "https://www.lttlabs.com/articles/2026/07/10/llm-quantization-part-2-youre-gonna-need-a-bigger-vram",
+  "source": "Hacker News",
+  "timestamp": "2026-07-10T16:52:46Z"
+ },
+ {
+  "id": "9ab6bbf3e6aeb94b",
+  "kind": "research",
+  "headline": "Generalizing LLMs with Probabilistic Language Tries",
+  "summary": "A research paper proposing a new data structure to extend how language models work. It's mostly theoretical architecture research without clear creative applications yet.",
+  "detail": "",
+  "category": "research",
+  "relevance": 3,
+  "url": "https://arxiv.org/abs/2604.06228",
+  "source": "Hacker News",
+  "timestamp": "2026-07-10T16:52:46Z"
+ },
+ {
+  "id": "1a284fd935d0ed3c",
+  "kind": "research",
+  "headline": "LLMs reasoning in hidden latent space without decoding",
+  "summary": "Someone discovered that AI models can solve problems by thinking in their internal hidden space without converting thoughts to words at each step. It's fascinating because it reveals how these models actually think and work internally.",
+  "detail": "This experiment shows LLMs can reason step-by-step entirely in latent space, skipping the decode-to-text-then-encode loop. The findings help explain how these models work and could inform better techniques for prompting or fine-tuning them for creative tasks.",
+  "category": "research",
+  "relevance": 6,
+  "url": "https://github.com/Oli-26/LatentReasoningNoDecode/blob/main/BLOG.md",
+  "source": "Hacker News",
+  "timestamp": "2026-07-10T16:52:46Z"
+ },
+ {
+  "id": "466918018a2f02d5",
+  "kind": "research",
+  "headline": "How language models represent and understand truth",
+  "summary": "A deep dive into whether AI models actually understand truth or just pattern-match, using ideas from formal logic. It matters for understanding whether models are genuinely reasoning or just predicting probabilities.",
+  "detail": "This work applies Tarski's truth theory to probe how LLMs represent factuality. It challenges common assumptions about model reasoning and contributes to understanding if and how these systems can be trusted on factual questions.",
+  "category": "research",
+  "relevance": 5,
+  "url": "https://abeljansma.nl/2026/07/10/truth-is-not-a-direction.html",
+  "source": "Hacker News",
+  "timestamp": "2026-07-10T16:52:46Z"
+ },
+ {
+  "id": "6b5b050b5877cdba",
+  "kind": "research",
+  "headline": "AI Picbreeder evolving images through vision model breeding",
+  "summary": "Sakana AI created a system where you pick images you like and AI evolves them by breeding variations together, guided by a vision model. It opens a new creative workflow—instead of prompting from scratch, you iterate and refine visually.",
+  "detail": "The system uses a VLM to guide evolutionary image generation where humans select which images to breed. Each generation creates new variations combining traits from the parents. This interactive evolution approach could speed up visual ideation and concept development for designers and filmmakers.",
+  "category": "research",
+  "relevance": 6,
+  "url": "https://pub.sakana.ai/picbreeder-vlm/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-10T16:52:46Z"
+ },
+ {
   "id": "356d95e212a930e2",
   "kind": "launch",
   "headline": "LTX-2.3 video model released in GGUF quantization",
