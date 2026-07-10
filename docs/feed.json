@@ -1,5 +1,53 @@
 [
  {
+  "id": "a8c4fc726826d415",
+  "kind": "launch",
+  "headline": "New Hugging Face text-to-audio model: demodokos-foundry-music-v4",
+  "summary": "A new model that turns text descriptions into music using AI. It could help you quickly generate background tracks for videos without recording them.",
+  "detail": "This is a text-to-audio model on Hugging Face that creates music from text prompts. It has gained 608 downloads. You can use it if you need fast audio generation for your films, though it's a smaller model without the polish of commercial music-gen tools.",
+  "category": "audio-music",
+  "relevance": 3,
+  "url": "https://huggingface.co/cmp-nct/demodokos-foundry-music-v4",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-10T05:50:02Z"
+ },
+ {
+  "id": "852cf16f999f4511",
+  "kind": "launch",
+  "headline": "Fraym – AI tool that auto-creates product demo videos",
+  "summary": "Fraym is a tool that uses AI to make product demo videos automatically. It could speed up making demo content for your projects without manual filming.",
+  "detail": "Fraym automates the creation of product demo videos with AI. You describe what you want and it generates a video. This could be useful for quickly making demo or test content, though it's designed more for e-commerce than filmmaking.",
+  "category": "video-gen",
+  "relevance": 5,
+  "url": "https://tryfraym.com",
+  "source": "Hacker News",
+  "timestamp": "2026-07-10T05:50:02Z"
+ },
+ {
+  "id": "93b45058bf86b7ed",
+  "kind": "launch",
+  "headline": "LocalClip – AI video clipper that runs locally on Mac",
+  "summary": "LocalClip is a tool that automatically cuts the best parts out of long videos using AI, and it runs on your own computer. It could save you time editing videos into clips for reels and social media.",
+  "detail": "LocalClip is an AI video clipper designed for Mac that runs locally without cloud upload. It automatically finds and extracts the best moments from longer videos. This could be useful in your post-production workflow to quickly generate short clips from full takes.",
+  "category": "editing-vfx",
+  "relevance": 6,
+  "url": "https://localclip.io/?lang=en",
+  "source": "Hacker News",
+  "timestamp": "2026-07-10T05:50:02Z"
+ },
+ {
+  "id": "cf8d87ce9aab994b",
+  "kind": "launch",
+  "headline": "TensorSharp – open-source local LLM inference engine",
+  "summary": "TensorSharp is a tool for running large language models on your own computer instead of online services. It's mainly for developers building AI applications.",
+  "detail": "TensorSharp is an open-source inference engine for running LLMs locally. It's designed for power users and developers who want AI models running on their own machines. This is developer infrastructure rather than a creative tool, so it would only matter if you're building custom AI workflows.",
+  "category": "model-infra",
+  "relevance": 3,
+  "url": "https://tensorsharp.ai/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-10T05:50:03Z"
+ },
+ {
   "id": "54ee76ae9206d639",
   "kind": "launch",
   "headline": "OpenAI releases GPT-5.6 frontier model",
