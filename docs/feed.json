@@ -1,5 +1,41 @@
 [
  {
+  "id": "84c747e361213f93",
+  "kind": "launch",
+  "headline": "Meta releases Muse Spark 1.1 reasoning model",
+  "summary": "Meta released Muse Spark 1.1, a reasoning model that works with images and text. It's built to handle complex reasoning tasks, mainly for automated assistants rather than creative work.",
+  "detail": "Meta AI released version 1.1 of Muse Spark, a model designed for reasoning tasks across images and text. The focus is on intelligent reasoning for automated task handling. While interesting as a foundation model, it doesn't appear specifically built for video or image generation workflows.",
+  "category": "model-infra",
+  "relevance": 5,
+  "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-10T07:08:13Z"
+ },
+ {
+  "id": "2177b0e05f136541",
+  "kind": "launch",
+  "headline": "ChatCut AI video editor for ChatGPT, desktop, web",
+  "summary": "ChatCut is a new AI-powered video editor you can use in ChatGPT, as a desktop app, or on the web. It makes video editing faster and easier with AI assistance built in.",
+  "detail": "ChatCut is a new video editing tool with AI capabilities, available as a ChatGPT plugin, desktop app, and web version. It brings AI-assisted editing into interfaces filmmakers already use. The multi-platform approach makes it accessible, though specifics about editing features and AI abilities aren't detailed in the announcement.",
+  "category": "editing-vfx",
+  "relevance": 7,
+  "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-10T07:08:13Z"
+ },
+ {
+  "id": "0c3b0cd8f97d243e",
+  "kind": "launch",
+  "headline": "OpenAI releases GPT-5.6 model",
+  "summary": "OpenAI released GPT-5.6, described as a new standard for both intelligence and efficiency. It balances smart thinking with fast processing for better results.",
+  "detail": "GPT-5.6 is a new model release from OpenAI positioned as an advancement in both intelligence and efficiency. While details are minimal, a new GPT release is relevant since many creative tools integrate OpenAI's models. The focus on efficiency suggests faster processing, which could benefit real-time creative workflows.",
+  "category": "model-infra",
+  "relevance": 6,
+  "url": "https://www.producthunt.com/products/openai",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-10T07:08:14Z"
+ },
+ {
   "id": "a8c4fc726826d415",
   "kind": "launch",
   "headline": "New Hugging Face text-to-audio model: demodokos-foundry-music-v4",
