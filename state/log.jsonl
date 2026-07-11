@@ -4553,3 +4553,8 @@
 {"ts": "2026-07-11T09:10:10Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 452}
 {"ts": "2026-07-11T09:10:15Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 452}
 {"ts": "2026-07-11T09:10:17Z", "event": "run_summary", "fetched": 1320, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-11T09:20:29Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 453}
+{"ts": "2026-07-11T09:21:01Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 453}
+{"ts": "2026-07-11T09:21:07Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 453}
+{"ts": "2026-07-11T09:21:09Z", "event": "fuzzy_dup", "source": "hackernews", "title": "Almost $1B Later, the US Still Can't Make a Medical Glove"}
+{"ts": "2026-07-11T09:21:09Z", "event": "run_summary", "fetched": 1318, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
