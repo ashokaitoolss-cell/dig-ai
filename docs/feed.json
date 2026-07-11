@@ -1,5 +1,17 @@
 [
  {
+  "id": "a382bace9ae1a145",
+  "kind": "launch",
+  "headline": "Pixailer: Real-time AI group photo generator",
+  "summary": "Pixailer is an AI tool that creates realistic photos of groups of people in real time. It could be useful for generating reference photos or group images on demand.",
+  "detail": "A new tool shared on Hacker News that generates realistic photos of groups using AI, in real time. You can try it at pixailer.com. The launch announcement doesn't yet include details on pricing, what model powers it, or specific features available.",
+  "category": "image-gen",
+  "relevance": 5,
+  "url": "https://pixailer.com",
+  "source": "Hacker News",
+  "timestamp": "2026-07-11T09:54:41Z"
+ },
+ {
   "id": "0828fef510569ab9",
   "kind": "launch",
   "headline": "LingBot Video 1.3B text-to-video model",
