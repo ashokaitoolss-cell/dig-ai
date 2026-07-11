@@ -1,5 +1,17 @@
 [
  {
+  "id": "1be5fda06eeba4d1",
+  "kind": "launch",
+  "headline": "Superwhite: render images brighter with HDR",
+  "summary": "A tool that makes images display brighter than normal white using Rec.2100 PQ profiles, an HDR technique. Useful for filmmakers who want more brightness range in their final image output.",
+  "detail": "Superwhite uses the Rec.2100 PQ color profile to push image brightness beyond standard white limits. This is a display and rendering technique that could help with mastering and final delivery of AI-generated or edited images. The app provides a way to test and create images with extended brightness values, which matters for HDR-capable displays and high-end video workflows.",
+  "category": "editing-vfx",
+  "relevance": 6,
+  "url": "https://superwhite.app/blog/how-it-works",
+  "source": "Hacker News",
+  "timestamp": "2026-07-11T10:50:03Z"
+ },
+ {
   "id": "b3d563424bb863e3",
   "kind": "launch",
   "headline": "bc1k-background-klein text-to-image model",
