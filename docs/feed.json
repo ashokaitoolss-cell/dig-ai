@@ -1,5 +1,17 @@
 [
  {
+  "id": "b3d563424bb863e3",
+  "kind": "launch",
+  "headline": "bc1k-background-klein text-to-image model",
+  "summary": "A new text-to-image model posted on Hugging Face. It's too small and new to be useful for your video or motion design work.",
+  "detail": "This is a text-to-image pipeline posted on Hugging Face. It has zero likes and only 81 downloads since it launched, showing minimal adoption so far.",
+  "category": "image-gen",
+  "relevance": 1,
+  "url": "https://huggingface.co/busetolunay/bc1k-background-klein-4b",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-11T10:17:04Z"
+ },
+ {
   "id": "a382bace9ae1a145",
   "kind": "launch",
   "headline": "Pixailer: Real-time AI group photo generator",
