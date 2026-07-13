@@ -1,5 +1,17 @@
 [
  {
+  "id": "232ea4b6897162d6",
+  "kind": "launch",
+  "headline": "Vivijure: open-source web-based AI video studio",
+  "summary": "Vivijure is an open-source AI video creation studio you can run in your web browser. It gives you another option if you like exploring open-source tools or want to run things on your own.",
+  "detail": "Show HN post for Vivijure, an open-source web-based AI video studio. Limited details are available from this announcement. Check the Hacker News post to learn what it does and see what the community thinks about it.",
+  "category": "video-gen",
+  "relevance": 4,
+  "url": "https://news.ycombinator.com/item?id=48891809",
+  "source": "Hacker News",
+  "timestamp": "2026-07-13T12:45:02Z"
+ },
+ {
   "id": "e5085155c0c946f7",
   "kind": "launch",
   "headline": "LTX-2.3 adult content video model",
