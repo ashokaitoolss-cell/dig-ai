@@ -1,12 +1,3 @@
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-editing/wojak-style"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-editing/youtube-thumbnails"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/hed"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/lineart"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/midas"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/mlsd"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/pidi"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/sam"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/scribble"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/teed"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image-preprocessors/zoe"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/image2pixel"}
@@ -4998,3 +4989,12 @@
 {"ts": "2026-07-13T14:00:15Z", "event": "classified", "source": "hackernews", "title": "I had rival LLMs judge 205 of my own startup ideas", "url": "https://skeptral.com", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-13T14:00:15Z", "event": "classified", "source": "openai", "title": "Getting started with ChatGPT", "url": "https://openai.com/academy/getting-started", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-13T14:00:15Z", "event": "run_summary", "fetched": 1274, "new": 3, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-13T14:10:27Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 553}
+{"ts": "2026-07-13T14:10:58Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 553}
+{"ts": "2026-07-13T14:11:04Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 553}
+{"ts": "2026-07-13T14:11:05Z", "event": "fuzzy_dup", "source": "hackernews", "title": "Show HN: Build Rules for Claude Code, Cursor, and Codex"}
+{"ts": "2026-07-13T14:11:19Z", "event": "classified", "source": "hackernews", "title": "SVIEW – 100M Large-Scale Grid & SQLite-free Pivot on an 11yo laptop", "url": "https://news.ycombinator.com/item?id=48892881", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-13T14:11:19Z", "event": "classified", "source": "hackernews", "title": "Show HN: Honeyprompt, the load-balancing, multi-protocol LLM honeypot", "url": "https://github.com/alectrocute/honeyprompt", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-13T14:11:19Z", "event": "classified", "source": "hackernews", "title": "AI as Search Engine and Printing Press Aid: Local Education Data Munging", "url": "https://middlesexgazette.org/news/vermonts-yardstick-moved/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-13T14:11:19Z", "event": "classified", "source": "hackernews", "title": "Show HN: Crowdmind – open-source tool to test ideas against AI personas", "url": "https://github.com/Brokenwatch24/crowdmind", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-13T14:11:19Z", "event": "run_summary", "fetched": 1274, "new": 4, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
