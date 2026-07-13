@@ -1,5 +1,17 @@
 [
  {
+  "id": "348e841e445c2214",
+  "kind": "launch",
+  "headline": "Pulaar text-to-audio checkpoint on Hugging Face",
+  "summary": "A small audio model trained for the Pulaar language. Not useful for video or image making.",
+  "detail": "A text-to-audio model checkpoint for Pulaar (a West African language) released on Hugging Face. It has 0 likes and only 37 downloads so far. This is too niche and audio-focused to matter for filmmaking work.",
+  "category": "audio-music",
+  "relevance": 2,
+  "url": "https://huggingface.co/Alioukun/pulaar_checkpoint_v2",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-13T14:22:40Z"
+ },
+ {
   "id": "232ea4b6897162d6",
   "kind": "launch",
   "headline": "Vivijure: open-source web-based AI video studio",
