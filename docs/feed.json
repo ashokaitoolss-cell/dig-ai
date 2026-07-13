@@ -1,5 +1,17 @@
 [
  {
+  "id": "84b7a5c18d5f0fd6",
+  "kind": "research",
+  "headline": "InfiniteDiffusion combines learned and procedural terrain generation",
+  "summary": "InfiniteDiffusion is a research project that blends AI diffusion models with procedural techniques to generate realistic 3D terrain. It could help motion designers and VFX artists build detailed natural environments for their scenes.",
+  "detail": "The technique bridges two approaches: learned AI models that capture realistic detail, and procedural systems that offer control and efficiency. By combining them, it aims to generate high-fidelity terrain that can be customized and controlled. This could be useful for filmmakers building landscapes and natural environments for animation and visual effects work.",
+  "category": "research",
+  "relevance": 5,
+  "url": "https://xandergos.github.io/terrain-diffusion/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-13T19:48:53Z"
+ },
+ {
   "id": "e96cb7bbaa15b506",
   "kind": "launch",
   "headline": "OpenAI launches Hazelnut image generation model",
