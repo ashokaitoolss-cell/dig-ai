@@ -1,5 +1,53 @@
 [
  {
+  "id": "9f3340e6c7bfea5b",
+  "kind": "launch",
+  "headline": "Fable 5 now available on Playcode.io",
+  "summary": "Fable 5 is Anthropic's new reasoning model now available on Playcode. You can use it directly in a browser for creative brainstorming and planning.",
+  "detail": "Fable 5, Anthropic's reasoning model, is now accessible on Playcode for direct online use.",
+  "category": "model-infra",
+  "relevance": 4,
+  "url": "https://playcode.io/blog/fable-5",
+  "source": "Hacker News",
+  "timestamp": "2026-07-13T05:36:23Z"
+ },
+ {
+  "id": "b0a0a1f1dcc98630",
+  "kind": "research",
+  "headline": "Study: People enjoy AI poetry less when told it's AI",
+  "summary": "Researchers found that people can't tell AI poetry from human poetry by quality alone. But they enjoy it less when they know an AI made it.",
+  "detail": "An academic study published in Digital Humanities Quarterly tested whether people could identify AI-made poetry versus human poetry. Readers couldn't tell the difference based on quality. However, when told a poem was made by AI, they rated it lower even though the poem was identical. This shows that people's perception of creative work is shaped by knowing its source.",
+  "category": "research",
+  "relevance": 5,
+  "url": "https://academic.oup.com/dsh/advance-article/doi/10.1093/llc/fqag067/8694305?login=false",
+  "source": "Hacker News",
+  "timestamp": "2026-07-13T05:36:23Z"
+ },
+ {
+  "id": "8e33ef2755b3aa0a",
+  "kind": "research",
+  "headline": "113M-parameter earthquake prediction LLM built from scratch",
+  "summary": "A developer trained a specialized language model from scratch to understand earthquake data. This is earth science research focused on seismic prediction, not creative applications.",
+  "detail": "A developer trained a 113M-parameter language model specifically for earthquake and seismic data prediction and shared it on GitHub. The model is purpose-built for earth science rather than creative or video work.",
+  "category": "research",
+  "relevance": 2,
+  "url": "https://github.com/jiazhe868/nanogpt-seis",
+  "source": "Hacker News",
+  "timestamp": "2026-07-13T05:36:23Z"
+ },
+ {
+  "id": "112618b777732b13",
+  "kind": "launch",
+  "headline": "Codebase Posters: Generate visual art from Git repos",
+  "summary": "Codebase Posters is a new tool that turns code repositories into visual poster art. It creates generative visuals from the structure of your code.",
+  "detail": "Codebase Posters is a new open-source project that visualizes Git repositories as generative poster art, available on GitHub. It can turn any code repository into unique visual designs. While creative and visual, it's best suited for code aesthetics rather than filmmaking and motion design workflows.",
+  "category": "other",
+  "relevance": 2,
+  "url": "https://github.com/unable12/codebase-posters",
+  "source": "Hacker News",
+  "timestamp": "2026-07-13T05:36:23Z"
+ },
+ {
   "id": "5612bf8897afde57",
   "kind": "research",
   "headline": "Research on reducing false information in AI models",
