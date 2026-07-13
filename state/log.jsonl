@@ -1,10 +1,3 @@
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2.3-quality/text-to-video"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2.3-quality/water-simulation"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2.3/audio-to-video"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2.3/extend-video"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2.3/image-to-video"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2.3/retake-video"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2.3/text-to-video"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2/audio-to-video"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2/extend-video"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/ltx-2/image-to-video"}
@@ -4998,3 +4991,10 @@
 {"ts": "2026-07-13T17:26:47Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 564}
 {"ts": "2026-07-13T17:27:09Z", "event": "classified", "source": "hackernews", "title": "Show HN: We are giving away > over the next 12 months to hack AI agents", "url": "https://playground.fabraix.com/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-13T17:27:09Z", "event": "run_summary", "fetched": 1282, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-13T17:44:34Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 565}
+{"ts": "2026-07-13T17:45:05Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 565}
+{"ts": "2026-07-13T17:45:14Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 565}
+{"ts": "2026-07-13T17:45:27Z", "event": "classified", "source": "hackernews", "title": "Simulating everything, sort of: The promise and limits of world models", "url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-13T17:45:27Z", "event": "classified", "source": "hackernews", "title": "Show HN: The Safe, Production-Ready Backend for AI-Generated Apps", "url": "https://developer.puter.com", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-13T17:45:27Z", "event": "classified", "source": "hackernews", "title": "Show HN: Connect a voice agent to your phone as a Bluetooth headset with a ESP32", "url": "https://github.com/michaellee8/esp32-bluetooth-voice-agent", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-13T17:45:27Z", "event": "run_summary", "fetched": 1284, "new": 3, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
