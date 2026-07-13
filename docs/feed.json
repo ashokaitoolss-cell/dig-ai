@@ -1,5 +1,17 @@
 [
  {
+  "id": "e96cb7bbaa15b506",
+  "kind": "launch",
+  "headline": "OpenAI launches Hazelnut image generation model",
+  "summary": "Hazelnut is OpenAI's new image generation model. It's relevant for filmmakers and motion designers working with AI image tools.",
+  "detail": "OpenAI has released Hazelnut, a new image model. The Higgsfield blog has coverage with early insights and features.",
+  "category": "image-gen",
+  "relevance": 9,
+  "url": "https://higgsfield.ai/blog/hazelnut-future-insights",
+  "source": "Higgsfield",
+  "timestamp": "2026-07-13T19:26:22Z"
+ },
+ {
   "id": "f85f86626563e49f",
   "kind": "research",
   "headline": "AI motion graphics with compiler-in-the-loop feedback",
