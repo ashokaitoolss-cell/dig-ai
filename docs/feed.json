@@ -1,5 +1,17 @@
 [
  {
+  "id": "f85f86626563e49f",
+  "kind": "research",
+  "headline": "AI motion graphics with compiler-in-the-loop feedback",
+  "summary": "This explores using a compiler to structure how AI agents and humans work together on motion graphics. It could give filmmakers more control over AI-generated motion instead of pure black-box output.",
+  "detail": "The article presents an approach where a compiler acts as a bridge between AI motion graphics generation and human creative direction. The compiler-in-the-loop system handles feedback cycles, letting humans guide and refine what AI produces. This hybrid approach differs from typical AI tools that just output finished footage.",
+  "category": "research",
+  "relevance": 7,
+  "url": "https://samsonaligba.com/video-compiler-for-agents-and-humans",
+  "source": "Hacker News",
+  "timestamp": "2026-07-13T16:31:58Z"
+ },
+ {
   "id": "348e841e445c2214",
   "kind": "launch",
   "headline": "Pulaar text-to-audio checkpoint on Hugging Face",
