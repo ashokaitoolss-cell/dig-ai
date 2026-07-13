@@ -1,8 +1,3 @@
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/magi-distilled/image-to-video"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/marlin"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/marlin/find"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/maya"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/maya/batch"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/maya/stream"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/meshy/rigging"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax-music"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-13T19:59:53Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 574}
 {"ts": "2026-07-13T20:00:14Z", "event": "classified", "source": "hackernews", "title": "Show HN: Rekody, free on-device voice dictation for macOS", "url": "https://rekody.com/", "kind": "skip", "category": "other", "relevance": 1, "headline": "Rekody: voice dictation tool for macOS", "summary": "Rekody is a voice-to-text tool that works locally on your Mac. It's not related to video generation, creative AI, or motion design work.", "detail": ""}
 {"ts": "2026-07-13T20:00:14Z", "event": "run_summary", "fetched": 1278, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-13T20:10:29Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 575}
+{"ts": "2026-07-13T20:11:01Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 575}
+{"ts": "2026-07-13T20:11:07Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 575}
+{"ts": "2026-07-13T20:11:23Z", "event": "classified", "source": "hackernews", "title": "Show HN: PlanWright – A control plane for AI coding agents", "url": "https://planwright.tools", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-13T20:11:23Z", "event": "run_summary", "fetched": 1279, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
