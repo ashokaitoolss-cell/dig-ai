@@ -1,7 +1,3 @@
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/object-removal"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/object-removal/bbox"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/object-removal/mask"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/omni-zero"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/omnigen-v1"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/omnigen-v2"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/omnilottie"}
@@ -4998,3 +4994,7 @@
 {"ts": "2026-07-14T05:11:37Z", "event": "classified", "source": "hackernews", "title": "Show HN: Fleet Deck – see every Claude Code session on your machine in one board", "url": "https://github.com/lacion/fleet-deck", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-14T05:11:37Z", "event": "classified", "source": "hackernews", "title": "Show HN: Giving Claude Code and codex its voice using kokoro", "url": "https://github.com/softcane/aloud", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-14T05:11:37Z", "event": "run_summary", "fetched": 1259, "new": 22, "launches": 3, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T05:21:48Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 579}
+{"ts": "2026-07-14T05:22:19Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 579}
+{"ts": "2026-07-14T05:22:24Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 579}
+{"ts": "2026-07-14T05:22:26Z", "event": "run_summary", "fetched": 1259, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
