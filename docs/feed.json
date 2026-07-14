@@ -1,5 +1,17 @@
 [
  {
+  "id": "002f51d06487dfa0",
+  "kind": "research",
+  "headline": "Bonsai 27B: 1-bit LLM runs on phones",
+  "summary": "Bonsai 27B is a 27-billion-parameter AI language model that fits and runs on smartphones using extreme quantization. It's a clever piece of engineering, but as a filmmaker your core tools are still video and image models, not text models.",
+  "detail": "PrismML released Bonsai 27B, the first 27-billion-parameter language model designed to run directly on phones by compressing the model to 1-bit precision. This is a genuine research achievement—prior models this size needed cloud servers. The technique opens doors for offline AI features on mobile devices. For filmmakers, this represents interesting infrastructure innovation but doesn't touch video generation, image synthesis, or editing workflows where your actual creative work happens.",
+  "category": "research",
+  "relevance": 5,
+  "url": "https://prismml.com/news/bonsai-27b",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T18:06:42Z"
+ },
+ {
   "id": "639bc0eeb82141e2",
   "kind": "launch",
   "headline": "Anam AI real-time emotional avatar generator",
