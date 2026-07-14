@@ -1,5 +1,41 @@
 [
  {
+  "id": "9cb71e8fc14d68b7",
+  "kind": "launch",
+  "headline": "VocalVia turns text into editable multi-voice audio",
+  "summary": "A tool that converts written text into spoken audio with multiple different voices, and lets you edit the audio afterward. Great for filmmakers who want to quickly create voiceovers or narration without recording by hand.",
+  "detail": "VocalVia reads text documents and articles and turns them into audio with multiple voice options. You can then edit the audio directly in the tool, adjusting timing, tone, and voice choices. This is useful for creating narration tracks, documentary voiceovers, or multi-speaker dialogue for your AI films without needing voice actors or recording studios.",
+  "category": "audio-music",
+  "relevance": 6,
+  "url": "https://www.producthunt.com/products/vocalvia",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-14T07:12:58Z"
+ },
+ {
+  "id": "14aa938aba5a2a68",
+  "kind": "launch",
+  "headline": "loopclub is collaborative drum machine with Claude",
+  "summary": "A shared online drum machine where you can jam with other people or with Claude, an AI assistant. Useful for filmmakers creating soundtracks and music for their videos.",
+  "detail": "loopclub is a collaborative music tool that lets you create drum patterns and rhythms with other users or with Claude AI helping you. You can jam in real-time, sharing the experience with strangers or friends. For AI filmmakers, this could be a quick way to generate or collaborate on original music and soundtracks for your projects.",
+  "category": "audio-music",
+  "relevance": 5,
+  "url": "https://www.producthunt.com/products/loopclub",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-14T07:12:59Z"
+ },
+ {
+  "id": "faed4317f66ad3ab",
+  "kind": "launch",
+  "headline": "Branda generates on-brand ads from any domain",
+  "summary": "An open-source tool that takes a website and automatically creates ads that match the brand's style. Good for quickly generating marketing videos or promo content with consistent branding.",
+  "detail": "Branda is an MIT open-source tool that scans a domain or website and generates advertising content that stays on-brand with the site's look and feel. The tool can create ads automatically by learning the brand style from the domain. For motion designers and filmmakers, this could speed up the process of creating branded promotional videos or marketing content.",
+  "category": "creative-platform",
+  "relevance": 5,
+  "url": "https://www.producthunt.com/products/branda-open-source-on-brand-ad-maker",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-14T07:12:59Z"
+ },
+ {
   "id": "b4d4612f5b578af1",
   "kind": "launch",
   "headline": "Ideogram v4 instant model now on Hugging Face",
