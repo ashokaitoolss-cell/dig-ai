@@ -1,5 +1,17 @@
 [
  {
+  "id": "96c46a306c114115",
+  "kind": "research",
+  "headline": "Model tier affects tool recommendation answers",
+  "summary": "This finding shows that different LLM tiers give different answers to the same question about which tool to use roughly half the time. It reveals that a model's capability level changes how it makes decisions, not just its speed or accuracy.",
+  "detail": "A study on modelsagree.com found that switching between LLM tiers changes their answer about the best tool for a job about 50% of the time. This reveals that model capability level affects decision-making patterns in unexpected ways. The finding is more relevant to researchers and developers than to filmmakers.",
+  "category": "research",
+  "relevance": 3,
+  "url": "https://modelsagree.com/labs/model-tiers",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T12:46:35Z"
+ },
+ {
   "id": "58ce4458b39c2118",
   "kind": "launch",
   "headline": "New Swahili text-to-speech model on Hugging Face",
