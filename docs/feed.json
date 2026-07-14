@@ -1,5 +1,17 @@
 [
  {
+  "id": "fd9c56cf779ded59",
+  "kind": "launch",
+  "headline": "Pupul: portable, revocable memory across AI tools",
+  "summary": "Pupul is a new tool that lets you carry memories and information across different AI systems. It gives you control over your data, letting you decide who can access it and revoking access anytime.",
+  "detail": "Pupul launched on Hacker News as a platform for creating portable, shareable memory that works across multiple AI tools. The core feature is revocable access — you can grant or revoke permission to your memories at any time, giving you more control over your information than typical integrations. For a filmmaker using multiple AI tools like Seedance, Higgsfield, and Kling, this could help carry style preferences and creative direction consistently across platforms. The very early signal (1 HN point) indicates this is brand new, so specific features and supported integrations are still unclear.",
+  "category": "creative-platform",
+  "relevance": 5,
+  "url": "https://pupulcorp.com/revoke-demo",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T21:46:11Z"
+ },
+ {
   "id": "d5a5695bc0007f65",
   "kind": "launch",
   "headline": "WebMotion: browser-native video composition library",
