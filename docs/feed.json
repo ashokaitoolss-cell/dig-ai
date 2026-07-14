@@ -1,5 +1,17 @@
 [
  {
+  "id": "76fc4f47e695d950",
+  "kind": "launch",
+  "headline": "Melodusk AI music generator launches in browser",
+  "summary": "Melodusk is an AI music generator and music tools that run in your web browser. For motion designers, it means you can make and edit music right alongside your video work.",
+  "detail": "Melodusk brings music generation and music tools directly to the browser with no downloads needed. It lets you generate and work with music as part of your video workflow. For filmmakers, having audio tools accessible in the browser streamlines the process of adding custom music to your projects.",
+  "category": "audio-music",
+  "relevance": 5,
+  "url": "https://melodusk.ai",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T04:04:28Z"
+ },
+ {
   "id": "84b7a5c18d5f0fd6",
   "kind": "research",
   "headline": "InfiniteDiffusion combines learned and procedural terrain generation",

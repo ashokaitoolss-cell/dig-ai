@@ -1,13 +1,3 @@
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/speech-02-turbo"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/speech-2.6-hd"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/speech-2.6-turbo"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/speech-2.8-hd"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/speech-2.8-turbo"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/video-01"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/video-01-director"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/video-01-live"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/voice-clone"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/minimax/voice-design"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/mmaudio-v2"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/mmaudio-v2/text-to-audio"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/moondream-next"}
@@ -4998,3 +4988,13 @@
 {"ts": "2026-07-13T20:23:00Z", "event": "classified", "source": "hackernews", "title": "Show HN: Remove Watermarks from Any Image", "url": "https://watermarkremoverai.com/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-13T20:23:00Z", "event": "classified", "source": "hackernews", "title": "Show HN: I created a platform to check which AI models is the best gamer", "url": "https://system-2-arena.vercel.app/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-13T20:23:00Z", "event": "run_summary", "fetched": 1278, "new": 4, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T02:28:37Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 577}
+{"ts": "2026-07-14T03:29:09Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 577}
+{"ts": "2026-07-14T03:29:19Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 577}
+{"ts": "2026-07-14T03:29:24Z", "event": "fuzzy_dup", "source": "hackernews", "title": "AI Model Co-Design: Hardware-Friendly LLM Design"}
+{"ts": "2026-07-14T03:29:24Z", "event": "fuzzy_dup", "source": "hackernews", "title": "Show HN: Context Warp Drive – deterministic, zero-LLM context compaction"}
+{"ts": "2026-07-14T04:03:46Z", "event": "classify_error", "error": "claude CLI failed: ", "items": 20}
+{"ts": "2026-07-14T04:04:28Z", "event": "classified", "source": "hackernews", "title": "Show HN: Zenveil-Security scanning for AI-generated code", "url": "https://zenveil.dev", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-14T04:04:28Z", "event": "classified", "source": "hackernews", "title": "Show HN: Melodusk – AI Music Generator and music tools in the browser", "url": "https://melodusk.ai", "kind": "launch", "category": "audio-music", "relevance": 5, "headline": "Melodusk AI music generator launches in browser", "summary": "Melodusk is an AI music generator and music tools that run in your web browser. For motion designers, it means you can make and edit music right alongside your video work.", "detail": "Melodusk brings music generation and music tools directly to the browser with no downloads needed. It lets you generate and work with music as part of your video workflow. For filmmakers, having audio tools accessible in the browser streamlines the process of adding custom music to your projects."}
+{"ts": "2026-07-14T04:04:28Z", "event": "classified", "source": "hackernews", "title": "Show HN: AgentsProof – a small project for testing AI agents", "url": "https://www.agentsproof.dev/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-14T04:04:28Z", "event": "run_summary", "fetched": 1264, "new": 23, "launches": 1, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
