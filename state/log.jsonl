@@ -1,8 +1,3 @@
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vidu/reference-to-image"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vidu/reference-to-video"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vidu/start-end-to-video"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vidu/template-to-video"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/void-video-inpainting"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/wan-22-image-trainer"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/wan-22-trainer/t2v-a14b"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/wan-22-vace-fun-a14b/depth"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-14T10:32:22Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 607}
 {"ts": "2026-07-14T10:32:28Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 607}
 {"ts": "2026-07-14T10:32:29Z", "event": "run_summary", "fetched": 1287, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T10:42:42Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 608}
+{"ts": "2026-07-14T10:43:12Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 608}
+{"ts": "2026-07-14T10:43:19Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 608}
+{"ts": "2026-07-14T10:43:31Z", "event": "classified", "source": "hackernews", "title": "Thoughts on starting new projects with LLM agents", "url": "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-14T10:43:31Z", "event": "run_summary", "fetched": 1286, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
