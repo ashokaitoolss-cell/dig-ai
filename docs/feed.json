@@ -1,5 +1,17 @@
 [
  {
+  "id": "ad78abe8e032152d",
+  "kind": "launch",
+  "headline": "Reve 2.1 Remix model endpoint launches on fal.ai",
+  "summary": "Reve 2.1 Remix is a new model endpoint that just appeared on fal.ai's public registry. Since you use fal.ai regularly, this is worth checking out to see what new capabilities it offers for your work.",
+  "detail": "A new model endpoint called reve/2.1/remix appeared on the fal.ai registry. The version 2.1 suggests this is an update to an earlier model. Check the link to find out what this model does and whether it fits your creative workflow.",
+  "category": "other",
+  "relevance": 6,
+  "url": "https://fal.ai/models/reve/2.1/remix",
+  "source": "fal.ai",
+  "timestamp": "2026-07-14T18:41:02Z"
+ },
+ {
   "id": "29e13cffc3d9a6d1",
   "kind": "launch",
   "headline": "Poseberry: AI influencers pose with your products",
