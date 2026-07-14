@@ -1,8 +1,3 @@
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/zonos"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/zonos2"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: google/gemini-omni-flash/edit"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: google/gemini-omni-flash/image-to-video"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: google/gemini-omni-flash/reference-to-video"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: google/nano-banana-lite"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: google/nano-banana-lite/edit"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: ideogram/v4"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-14T12:13:22Z", "event": "classified", "source": "hackernews", "title": "Show HN: Parametric 3D models created using JavaScript", "url": "https://muffinman.io/3d-models/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-14T12:13:22Z", "event": "classified", "source": "hackernews", "title": "Show HN: AI mock-interview coach that scores how you sound, not just your words", "url": "https://www.stanrose.com/mondaus", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-14T12:13:22Z", "event": "run_summary", "fetched": 1285, "new": 3, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T12:23:35Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 617}
+{"ts": "2026-07-14T12:24:05Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 617}
+{"ts": "2026-07-14T12:24:12Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 617}
+{"ts": "2026-07-14T12:24:27Z", "event": "classified", "source": "hackernews", "title": "Show HN: IChingPortal – Keyword search and news aggregator using the I Ching", "url": "https://ichingportal.com/", "kind": "skip", "category": "other", "relevance": 1, "headline": "I Ching-based news aggregator and keyword search", "summary": "", "detail": ""}
+{"ts": "2026-07-14T12:24:27Z", "event": "run_summary", "fetched": 1285, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
