@@ -1,5 +1,17 @@
 [
  {
+  "id": "58ce4458b39c2118",
+  "kind": "launch",
+  "headline": "New Swahili text-to-speech model on Hugging Face",
+  "summary": "A text-to-speech tool that converts written Swahili into audio. It's useful for Swahili-language videos but too niche for most AI filmmakers.",
+  "detail": "Mwau/waxal_swahili-tts-mms is a text-to-speech model newly released on Hugging Face. It has 18 downloads and zero likes. The model is designed for Swahili text-to-speech conversion. It's a specialized tool that most AI filmmakers won't need unless they work with Swahili content.",
+  "category": "audio-music",
+  "relevance": 2,
+  "url": "https://huggingface.co/Mwau/waxal_swahili-tts-mms",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-14T09:48:37Z"
+ },
+ {
   "id": "e39dbb50feefd5bc",
   "kind": "launch",
   "headline": "Coura AI clothes changer for outfit photos",

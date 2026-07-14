@@ -1,8 +1,3 @@
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/turbo-flux-trainer"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/uno"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/uso"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vecglypher"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vecglypher/image-to-svg"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/veo2"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/veo2/image-to-video"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/veo3"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-14T09:37:17Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 602}
 {"ts": "2026-07-14T09:37:23Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 602}
 {"ts": "2026-07-14T09:37:24Z", "event": "run_summary", "fetched": 1289, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T09:47:36Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 603}
+{"ts": "2026-07-14T09:48:06Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 603}
+{"ts": "2026-07-14T09:48:11Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 603}
+{"ts": "2026-07-14T09:48:37Z", "event": "classified", "source": "huggingface", "title": "New Hugging Face model: Mwau/waxal_swahili-tts-mms", "url": "https://huggingface.co/Mwau/waxal_swahili-tts-mms", "kind": "launch", "category": "audio-music", "relevance": 2, "headline": "New Swahili text-to-speech model on Hugging Face", "summary": "A text-to-speech tool that converts written Swahili into audio. It's useful for Swahili-language videos but too niche for most AI filmmakers.", "detail": "Mwau/waxal_swahili-tts-mms is a text-to-speech model newly released on Hugging Face. It has 18 downloads and zero likes. The model is designed for Swahili text-to-speech conversion. It's a specialized tool that most AI filmmakers won't need unless they work with Swahili content."}
+{"ts": "2026-07-14T09:48:37Z", "event": "run_summary", "fetched": 1289, "new": 1, "launches": 1, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
