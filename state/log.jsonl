@@ -1,8 +1,3 @@
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/recraft-20b"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/recraft/vectorize"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/retoucher"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/rife"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/rife/video"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/sadtalker"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/sadtalker/reference"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/sam-3-1/image"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-14T07:57:03Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 593}
 {"ts": "2026-07-14T07:57:18Z", "event": "classified", "source": "hackernews", "title": "Show HN: Neverswipe – your AI agent dates so you don't swipe", "url": "https://neverswipe.ai", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-14T07:57:18Z", "event": "run_summary", "fetched": 1263, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T08:07:29Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 594}
+{"ts": "2026-07-14T08:08:05Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 594}
+{"ts": "2026-07-14T08:08:11Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 594}
+{"ts": "2026-07-14T08:08:26Z", "event": "classified", "source": "hackernews", "title": "We gave our agent memory: building an LLM Wiki over sources that never sit still", "url": "https://engineering.taktile.com/blog/llm-wiki-agent-memory/", "kind": "skip", "category": "other", "relevance": 2, "headline": "Blog post on building LLM agent memory systems", "summary": "", "detail": ""}
+{"ts": "2026-07-14T08:08:26Z", "event": "run_summary", "fetched": 1264, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
