@@ -1,5 +1,41 @@
 [
  {
+  "id": "639bc0eeb82141e2",
+  "kind": "launch",
+  "headline": "Anam AI real-time emotional avatar generator",
+  "summary": "Anam AI creates avatars that change their emotions when you talk to them. This is useful for making talking-head videos and character scenes without having to animate the faces yourself.",
+  "detail": "Anam AI generates avatars in real time that respond emotionally to your voice and expressions. The avatars automatically show different emotions based on what you say. This speeds up making character-driven video content. Find it at anam.ai.",
+  "category": "avatar-lipsync",
+  "relevance": 7,
+  "url": "https://anam.ai/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T15:04:45Z"
+ },
+ {
+  "id": "5370acd7cc248348",
+  "kind": "launch",
+  "headline": "HF realtime voice with avatar face, CPU optimized",
+  "summary": "Hugging Face's realtime voice now generates a talking avatar face and runs on regular computers. This makes quick AI character avatars accessible without expensive hardware.",
+  "detail": "This Hugging Face Space combines their realtime voice model with avatar generation, creating a speaking face from audio in real time. It's optimized to run on CPUs instead of expensive GPUs, making it much faster and cheaper. You can try it directly in your browser on Hugging Face Spaces without installing anything, making it useful for quick character generation in video projects.",
+  "category": "avatar-lipsync",
+  "relevance": 7,
+  "url": "https://huggingface.co/spaces/antonios-makro/hf-realtime-voice-avatar",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T15:04:46Z"
+ },
+ {
+  "id": "1bfc59d2aa1af72a",
+  "kind": "launch",
+  "headline": "Kling 2.6 technical overview and new capabilities",
+  "summary": "Kling 2.6 brings new video and audio generation features from Higgsfield. This is a major update to one of the top tools AI filmmakers use daily.",
+  "detail": "Higgsfield published a technical overview of Kling 2.6, the next version of their video and audio generation tool. The overview describes the technical improvements coming in this major update to one of the core tools for AI filmmakers.",
+  "category": "video-gen",
+  "relevance": 9,
+  "url": "https://higgsfield.ai/blog/Kling-2.6-Technical-Overview-Next-Generation-of-AI-Video",
+  "source": "Higgsfield",
+  "timestamp": "2026-07-14T15:04:47Z"
+ },
+ {
   "id": "96c46a306c114115",
   "kind": "research",
   "headline": "Model tier affects tool recommendation answers",
