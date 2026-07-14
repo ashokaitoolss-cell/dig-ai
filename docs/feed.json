@@ -1,5 +1,17 @@
 [
  {
+  "id": "29e13cffc3d9a6d1",
+  "kind": "launch",
+  "headline": "Poseberry: AI influencers pose with your products",
+  "summary": "Poseberry is a new tool for creating AI influencers and models that pose with your products for marketing and photography. It could help filmmakers and motion designers generate talent and create product videos and ads without hiring actors or models.",
+  "detail": "Poseberry launched on Hacker News (Show HN post) for creating AI influencers positioned with your products. The tool is geared toward product photography and marketing use cases. For motion designers doing commercial work, it offers a way to generate character talent quickly for ads and promotional videos.",
+  "category": "creative-platform",
+  "relevance": 5,
+  "url": "https://poseberry.com",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T18:29:37Z"
+ },
+ {
   "id": "002f51d06487dfa0",
   "kind": "research",
   "headline": "Bonsai 27B: 1-bit LLM runs on phones",
