@@ -1,8 +1,3 @@
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/veo3/fast"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/veo3/image-to-video"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vibevoice"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vibevoice/0.5b"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/vibevoice/7b"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/video-prompt-generator"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/video-understanding"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/video-upscaler"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-14T10:10:32Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 605}
 {"ts": "2026-07-14T10:10:33Z", "event": "fuzzy_dup", "source": "hackernews", "title": "Simulating everything, sort of: The promise and limits of world models"}
 {"ts": "2026-07-14T10:10:33Z", "event": "run_summary", "fetched": 1289, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T10:20:45Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 606}
+{"ts": "2026-07-14T10:21:16Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 606}
+{"ts": "2026-07-14T10:21:23Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 606}
+{"ts": "2026-07-14T10:21:39Z", "event": "classified", "source": "hackernews", "title": "Show HN: QPilot – paste a manual test case, AI runs it in Chrome", "url": "https://github.com/broxhq/qpilot", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-14T10:21:39Z", "event": "run_summary", "fetched": 1289, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
