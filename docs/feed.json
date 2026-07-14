@@ -1,5 +1,17 @@
 [
  {
+  "id": "d5a5695bc0007f65",
+  "kind": "launch",
+  "headline": "WebMotion: browser-native video composition library",
+  "summary": "WebMotion is a new library for making videos directly in the browser with deterministic results—same input always gives the same output. This lets filmmakers automate video assembly and build reproducible workflows without leaving the web.",
+  "detail": "WebMotion is a browser native library for creating videos with deterministic composition, newly shared on Hacker News. The deterministic aspect means identical output for identical settings, useful for programmatic or automated video creation. It runs entirely in the browser, eliminating the need for desktop software.",
+  "category": "editing-vfx",
+  "relevance": 6,
+  "url": "https://webmotion.superhq.ai/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T20:50:57Z"
+ },
+ {
   "id": "ad78abe8e032152d",
   "kind": "launch",
   "headline": "Reve 2.1 Remix model endpoint launches on fal.ai",
