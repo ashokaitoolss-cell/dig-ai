@@ -1,5 +1,41 @@
 [
  {
+  "id": "b4d4612f5b578af1",
+  "kind": "launch",
+  "headline": "Ideogram v4 instant model now on Hugging Face",
+  "summary": "A fast text-to-image model from Ideogram is now available on Hugging Face. It lets you quickly generate images without waiting, and you can run it locally or through their API.",
+  "detail": "Ideogram v4 instant has been added to Hugging Face as a text-to-image pipeline. The instant variant prioritizes speed for rapid iteration. You can access it immediately through Hugging Face; the model shows 11 likes shortly after upload, indicating fresh availability.",
+  "category": "image-gen",
+  "relevance": 5,
+  "url": "https://huggingface.co/fal/ideogram-v4-instant",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-14T05:11:37Z"
+ },
+ {
+  "id": "7cfa0f7e1b9ad0fe",
+  "kind": "launch",
+  "headline": "GLM-5.2 language model via Canopy Wave",
+  "summary": "GLM-5.2, a large language model, is now available through Canopy Wave's inference service. It's useful for text-based work like scriptwriting or analysis, but not for visual generation.",
+  "detail": "GLM-5.2 is now accessible through Canopy Wave, an AI inference platform. As a language model, it handles text generation and understanding rather than visual creation. This makes it available to more users through another service.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://twitter.com/CanopyWave_AI/status/2076667973616779441",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T05:11:37Z"
+ },
+ {
+  "id": "9990ca44104c30a5",
+  "kind": "launch",
+  "headline": "MemStitch speeds vLLM inference 25x faster",
+  "summary": "MemStitch is a new optimization tool that makes language model serving much faster by removing data copying overhead. It's useful if you run language models locally and need better speed.",
+  "detail": "MemStitch is an open-source tool for vLLM that improves time-to-first-token by up to 25x through zero-copy context management. This matters for anyone self-hosting language models, but doesn't directly affect video or image generation workflows.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://github.com/DaqulaLin/MemStitch",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T05:11:37Z"
+ },
+ {
   "id": "76fc4f47e695d950",
   "kind": "launch",
   "headline": "Melodusk AI music generator launches in browser",
