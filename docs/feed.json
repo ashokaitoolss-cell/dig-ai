@@ -1,5 +1,17 @@
 [
  {
+  "id": "e39dbb50feefd5bc",
+  "kind": "launch",
+  "headline": "Coura AI clothes changer for outfit photos",
+  "summary": "Coura AI lets you swap out clothes in photos to see different outfits realistically. It helps with character design and wardrobe testing for your video content.",
+  "detail": "This is an AI tool that changes clothing in photos while keeping people realistic. For filmmakers, it helps you try different outfit looks without reshooting or retesting styles. You can quickly see how different wardrobe options look on a character or subject. It's available at coura.ai.",
+  "category": "image-gen",
+  "relevance": 5,
+  "url": "https://coura.ai",
+  "source": "Hacker News",
+  "timestamp": "2026-07-14T09:26:34Z"
+ },
+ {
   "id": "d8662d0e5089bc23",
   "kind": "launch",
   "headline": "AnimeGen text-to-video model released",

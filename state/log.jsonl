@@ -1,9 +1,3 @@
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/telestyle-v2"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/thinksound"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/thinksound/audio"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/trellis"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/trellis-2"}
-{"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/trellis-2-lora"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/trellis-2-lora-trainer"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/trellis-2/retexture"}
 {"ts": "2026-07-02T09:40:30Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/trellis/multi"}
@@ -4998,3 +4992,9 @@
 {"ts": "2026-07-14T09:15:06Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 600}
 {"ts": "2026-07-14T09:15:12Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 600}
 {"ts": "2026-07-14T09:15:13Z", "event": "run_summary", "fetched": 1288, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T09:25:25Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 601}
+{"ts": "2026-07-14T09:25:55Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 601}
+{"ts": "2026-07-14T09:26:01Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 601}
+{"ts": "2026-07-14T09:26:34Z", "event": "classified", "source": "hackernews", "title": "Show HN: Turnitin Report – AI checker and AI detector for student papers", "url": "https://www.turnitin.report/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-14T09:26:34Z", "event": "classified", "source": "hackernews", "title": "Show HN: Coura AI – AI clothes changer for realistic outfit photos", "url": "https://coura.ai", "kind": "launch", "category": "image-gen", "relevance": 5, "headline": "Coura AI clothes changer for outfit photos", "summary": "Coura AI lets you swap out clothes in photos to see different outfits realistically. It helps with character design and wardrobe testing for your video content.", "detail": "This is an AI tool that changes clothing in photos while keeping people realistic. For filmmakers, it helps you try different outfit looks without reshooting or retesting styles. You can quickly see how different wardrobe options look on a character or subject. It's available at coura.ai."}
+{"ts": "2026-07-14T09:26:34Z", "event": "run_summary", "fetched": 1290, "new": 2, "launches": 1, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
