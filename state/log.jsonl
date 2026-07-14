@@ -1,8 +1,3 @@
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/phota/enhance"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/photomaker"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/pixal3d"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/pixart-sigma"}
-{"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/pixverse/extend"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/pixverse/lipsync"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/pixverse/sound-effects"}
 {"ts": "2026-07-02T09:40:29Z", "event": "fuzzy_dup", "source": "fal", "title": "New fal.ai model endpoint: fal-ai/pixverse/swap"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-14T06:05:56Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 583}
 {"ts": "2026-07-14T06:06:09Z", "event": "classified", "source": "deepmind", "title": "Empowering India’s next generation of innovators with ATL Saathi", "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
 {"ts": "2026-07-14T06:06:09Z", "event": "run_summary", "fetched": 1259, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-14T06:16:20Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 584}
+{"ts": "2026-07-14T06:16:51Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 584}
+{"ts": "2026-07-14T06:17:00Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 584}
+{"ts": "2026-07-14T06:17:09Z", "event": "classified", "source": "hackernews", "title": "Show HN: Rqshc – A C++/x64 assembly image compressor with its own RQI format", "url": "https://github.com/Eiryou/rqshc-image-compressor", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-14T06:17:09Z", "event": "run_summary", "fetched": 1260, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
