@@ -1,5 +1,17 @@
 [
  {
+  "id": "807c69b99fd428d2",
+  "kind": "research",
+  "headline": "Thinking Machines releases 975B open-weights LLM",
+  "summary": "Mira Murati's company released a huge language model that anyone can download and use for free. It could help with writing scripts, brainstorming ideas, or building custom AI tools for your filmmaking work.",
+  "detail": "The model has 975 billion parameters and is fully open-weights, so you can run it on your own computer or change it however you want. It needs a lot of computing power to work, but it gives you total control without depending on cloud APIs. It works with text, not video or images, but could power custom tools for workflows like script generation, prompt writing, or idea development.",
+  "category": "research",
+  "relevance": 5,
+  "url": "https://thinkingmachines.ai/inkling/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-15T18:23:42Z"
+ },
+ {
   "id": "65ace926517ae7a9",
   "kind": "launch",
   "headline": "Hedos – Local AI models on Mac",
