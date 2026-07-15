@@ -1,5 +1,65 @@
 [
  {
+  "id": "3a83ab50271ecd4b",
+  "kind": "launch",
+  "headline": "Sogni offers flat-rate unlimited image and video generation",
+  "summary": "Sogni is a service for unlimited image and video creation at one fixed monthly price, powered by independent GPU owners. This pricing model lets you prototype motion designs without worrying about per-minute costs.",
+  "detail": "Unlike per-minute billing, Sogni charges a flat rate for unlimited generation on decentralized GPUs. Quality and speed versus Seedance or Kling are unclear from the announcement, but unlimited pricing could speed up iteration. The project is very early (1 HN point). Check sogni.ai/unlimited to see if the output meets your standards.",
+  "category": "video-gen",
+  "relevance": 6,
+  "url": "https://www.sogni.ai/unlimited",
+  "source": "Hacker News",
+  "timestamp": "2026-07-15T05:25:12Z"
+ },
+ {
+  "id": "e3b8a6ed4a9f49ae",
+  "kind": "launch",
+  "headline": "Timeline Studio brings open-source AI video editing",
+  "summary": "Timeline Studio is an open-source video editor with AI features built in. You can run it yourself and modify it instead of being locked into proprietary software.",
+  "detail": "Being open-source means you can self-host, customize, and inspect the code. The snippet doesn't detail what AI features it provides (like clip detection or auto-color), so you'd need to check the project. Early stage and worth a quick look if video editing is part of your workflow. Try it at video-editor.ai-creator.top/.",
+  "category": "editing-vfx",
+  "relevance": 5,
+  "url": "https://video-editor.ai-creator.top/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-15T05:25:13Z"
+ },
+ {
+  "id": "b475bcf3566c91e1",
+  "kind": "research",
+  "headline": "NVIDIA releases ARDY for human motion synthesis",
+  "summary": "ARDY uses autoregressive diffusion to generate realistic human motion without needing footage. For AI filmmaking, this means faster character animation and motion capture synthesis.",
+  "detail": "NVIDIA's research team created ARDY to build motion frame-by-frame, which often produces smoother results than other methods. This could become part of motion generation pipelines for character walks, gestures, and dance. If the quality is high, it's worth experimenting with for your next character-heavy project. See research.nvidia.com/labs/sil/projects/ardy/.",
+  "category": "research",
+  "relevance": 7,
+  "url": "https://research.nvidia.com/labs/sil/projects/ardy/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-15T05:25:13Z"
+ },
+ {
+  "id": "0995ee403f051d23",
+  "kind": "launch",
+  "headline": "Web-based VistaPro clone for 3D landscape generation",
+  "summary": "A browser version of VistaPro, the classic tool for making 3D landscapes procedurally. Useful if you need quick terrain or environment backgrounds without leaving your browser.",
+  "detail": "VistaPro was famous for detailed procedural 3D landscapes and this is a modern web recreation. Quality and feature parity with the original aren't clear. Very early project but worth checking if you occasionally need 3D landscape elements for background plates. Try toby.github.io/vista/.",
+  "category": "3d",
+  "relevance": 4,
+  "url": "https://toby.github.io/vista/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-15T05:25:13Z"
+ },
+ {
+  "id": "9e43c4d9ee18e354",
+  "kind": "research",
+  "headline": "LeMario trains world models from Mario Bros gameplay",
+  "summary": "Researchers built a world model (AI that predicts how scenes move) by watching Super Mario. World models could eventually generate video by learning motion patterns, which is more stable than current diffusion approaches.",
+  "detail": "LeMario shows that world models can learn from game footage and the method likely applies to real video. World models represent a promising direction beyond diffusion for video generation. If this matures, it could influence the next generation of video tools. See www.benjamin-bai.com/projects/lemario.",
+  "category": "research",
+  "relevance": 6,
+  "url": "https://www.benjamin-bai.com/projects/lemario",
+  "source": "Hacker News",
+  "timestamp": "2026-07-15T05:25:13Z"
+ },
+ {
   "id": "fd9c56cf779ded59",
   "kind": "launch",
   "headline": "Pupul: portable, revocable memory across AI tools",
