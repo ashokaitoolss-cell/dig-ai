@@ -1,5 +1,29 @@
 [
  {
+  "id": "2235a2458aa25bf8",
+  "kind": "launch",
+  "headline": "Velo 3.0 AI video infrastructure released",
+  "summary": "Velo is an AI tool that makes videos automatically without filming. It helps you create videos fast for training, explaining, or selling.",
+  "detail": "Velo 3.0 is a platform that uses AI to create videos from descriptions. Instead of filming and editing, you write what you want and AI generates the full video. It's built for people who need to make lots of videos quickly. Version 3.0 suggests big improvements. This could save time if you make videos regularly for work.",
+  "category": "video-gen",
+  "relevance": 7,
+  "url": "https://www.producthunt.com/products/velo-4",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-15T07:04:54Z"
+ },
+ {
+  "id": "f82461e57d6375e7",
+  "kind": "launch",
+  "headline": "V2Fun generates 3D characters with AI motion",
+  "summary": "V2Fun is an AI tool that creates detailed 3D characters with realistic movements. It's perfect for filmmakers and animators who need characters for their videos.",
+  "detail": "V2Fun generates 3D characters with 8K textures (very detailed images) and AI motion capture (realistic movements). You don't need to know 3D modeling or animation to create characters. Just describe what you want and the tool generates it. This is useful for filmmakers, animators, and video creators. You can use it to create characters for your films.",
+  "category": "3d",
+  "relevance": 8,
+  "url": "https://www.producthunt.com/products/v2fun",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-15T07:04:55Z"
+ },
+ {
   "id": "3a83ab50271ecd4b",
   "kind": "launch",
   "headline": "Sogni offers flat-rate unlimited image and video generation",
