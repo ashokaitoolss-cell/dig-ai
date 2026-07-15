@@ -1,5 +1,29 @@
 [
  {
+  "id": "65ace926517ae7a9",
+  "kind": "launch",
+  "headline": "Hedos – Local AI models on Mac",
+  "summary": "A Mac app that runs AI image and text models on your own computer. You can experiment with ideas offline and free, without paying for cloud services like Midjourney.",
+  "detail": "Hedos bundles open-source tools into a native Mac app so you can run AI models locally. You get image generation and text capabilities without cloud costs, internet dependency, or API fees. Good for filmmakers to prototype creative concepts quickly before moving to production tools.",
+  "category": "model-infra",
+  "relevance": 5,
+  "url": "https://www.hedos.ai/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-15T17:17:49Z"
+ },
+ {
+  "id": "ee230258f27f8a0d",
+  "kind": "research",
+  "headline": "GPT-Red: OpenAI's automated red teaming system",
+  "summary": "OpenAI published research on a system that automatically finds weaknesses in AI models to make them safer and more reliable. While it is solid frontier research on AI safety, it's not a creative tool or model that filmmakers can directly use in their video or image work.",
+  "detail": "GPT-Red is OpenAI's automated red teaming approach that uses self-play to identify vulnerabilities in language models and improve AI safety, alignment, and robustness against prompt injection attacks. This represents solid research from a major lab on making AI systems more reliable. However, it is research methodology for safety improvements, not a new creative model or tool for filmmakers to use in their motion design or video generation workflows.",
+  "category": "research",
+  "relevance": 5,
+  "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+  "source": "OpenAI",
+  "timestamp": "2026-07-15T17:17:49Z"
+ },
+ {
   "id": "3e37bd22b0f02afc",
   "kind": "launch",
   "headline": "LogoTeddy animates logos with AI, no templates",
