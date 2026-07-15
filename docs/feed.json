@@ -1,5 +1,17 @@
 [
  {
+  "id": "3e37bd22b0f02afc",
+  "kind": "launch",
+  "headline": "LogoTeddy animates logos with AI, no templates",
+  "summary": "LogoTeddy is a tool that automatically animates static logos using AI. It's useful for motion designers who need animated logos for projects and branded content.",
+  "detail": "LogoTeddy generates animations for logos without using pre-built templates. Instead of picking from stock animations, the tool creates custom animations for each logo. For motion designers working on branded content or client projects, this tool could save time on animation work.",
+  "category": "editing-vfx",
+  "relevance": 5,
+  "url": "https://logoteddy.com/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-15T14:15:30Z"
+ },
+ {
   "id": "2235a2458aa25bf8",
   "kind": "launch",
   "headline": "Velo 3.0 AI video infrastructure released",
