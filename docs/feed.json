@@ -1,5 +1,17 @@
 [
  {
+  "id": "5c7088c6663d6f37",
+  "kind": "launch",
+  "headline": "ASMR and Hypnosis Easy Audio Studio",
+  "summary": "This tool makes ASMR and hypnosis audio. It could be useful for adding audio to films, but it's built for a specific niche rather than general filmmaking workflows.",
+  "detail": "A tool for creating ASMR and hypnosis audio available on itch.io. Specialized for ambient, relaxation-focused audio rather than general filmmaking.",
+  "category": "audio-music",
+  "relevance": 2,
+  "url": "https://reactorcore.itch.io/asmrify-asmr-hypnosis-audio-studio",
+  "source": "Hacker News",
+  "timestamp": "2026-07-16T16:41:21Z"
+ },
+ {
   "id": "5d8d3907ea9b52b6",
   "kind": "launch",
   "headline": "LingBot text-to-video ComfyUI model",
