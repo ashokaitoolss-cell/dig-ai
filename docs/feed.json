@@ -1,5 +1,17 @@
 [
  {
+  "id": "808f84e6c093681d",
+  "kind": "launch",
+  "headline": "LM Studio introduces Bionic agent for open models",
+  "summary": "LM Studio Bionic is a new AI agent for working with open-source models on your computer. It's mostly a developer tool for building custom automation and workflows.",
+  "detail": "LM Studio announced Bionic, an AI agent feature for local open-source models. The snippet is too thin to detail what the agent actually does or what creative workflows it enables.",
+  "category": "model-infra",
+  "relevance": 3,
+  "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+  "source": "Hacker News",
+  "timestamp": "2026-07-16T20:30:14Z"
+ },
+ {
   "id": "9e346600d3ba8bde",
   "kind": "launch",
   "headline": "fal.ai adds ltx-2.3 reframe endpoint",
