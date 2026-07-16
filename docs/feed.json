@@ -1,5 +1,17 @@
 [
  {
+  "id": "9e346600d3ba8bde",
+  "kind": "launch",
+  "headline": "fal.ai adds ltx-2.3 reframe endpoint",
+  "summary": "A new video reframing tool just appeared on fal.ai. It automatically adjusts frame composition and framing on video clips.",
+  "detail": "The ltx-2.3/reframe endpoint appeared on fal.ai's registry without advance announcement—typical for fal drops. It handles reframing and composition changes using the LTX video model, accessible through fal.ai's standard API. This is a new capability endpoint for an existing model, expanding what you can do directly on the platform.",
+  "category": "video-gen",
+  "relevance": 8,
+  "url": "https://fal.ai/models/fal-ai/ltx-2.3/reframe",
+  "source": "fal.ai",
+  "timestamp": "2026-07-16T20:18:42Z"
+ },
+ {
   "id": "5c7088c6663d6f37",
   "kind": "launch",
   "headline": "ASMR and Hypnosis Easy Audio Studio",
