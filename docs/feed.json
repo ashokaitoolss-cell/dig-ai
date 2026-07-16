@@ -1,5 +1,41 @@
 [
  {
+  "id": "5d8d3907ea9b52b6",
+  "kind": "launch",
+  "headline": "LingBot text-to-video ComfyUI model",
+  "summary": "A new text-to-video model for ComfyUI that creates videos from text descriptions. If it works well, it could be another option for quick video generation.",
+  "detail": "LingBot-30B-3B_GGUF_ComfyUI on Hugging Face creates videos from text. It has 1 like and 106 downloads shortly after creation. With such minimal engagement, output quality is unknown. If it works well, it could be another text-to-video option for filmmakers using ComfyUI.",
+  "category": "video-gen",
+  "relevance": 2,
+  "url": "https://huggingface.co/Ares-Realm-Studios/LingBot-30B-3B_GGUF_ComfyUI",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-16T08:51:22Z"
+ },
+ {
+  "id": "0e44c1611c3496de",
+  "kind": "launch",
+  "headline": "Trackwan image-to-video model",
+  "summary": "A new image-to-video model that turns still images into moving video. Useful for motion designers who want to extend static images into animated clips.",
+  "detail": "Trackwan-1.3b-bidir-merged-bias converts images to video on Hugging Face. The model is small at 1.3 billion parameters with only 27 downloads so far. Output quality is unknown from these early numbers. If it works well, image-to-video automation could be useful for quick motion graphics.",
+  "category": "video-gen",
+  "relevance": 3,
+  "url": "https://huggingface.co/noctuashap/trackwan-1.3b-bidir-merged-bias",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-16T08:51:22Z"
+ },
+ {
+  "id": "a5d97c9d2b1357ba",
+  "kind": "launch",
+  "headline": "Zyphra ZONOS1 text-to-speech model",
+  "summary": "A new text-to-speech model from Zyphra that runs on your own computer. Helpful for filmmakers who need voiceovers, narration, or dialogue without uploading to servers.",
+  "detail": "ZONOS1-GGUF from Zyphra has better reception than most new models with 93 downloads and 2 likes. The GGUF format lets it run locally on your computer without sending audio to external servers. Voice quality is unknown since it's brand new. If it sounds natural, it could help with voiceovers, narration, and character dialogue in your videos.",
+  "category": "audio-music",
+  "relevance": 4,
+  "url": "https://huggingface.co/Zyphra/ZONOS1-GGUF",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-16T08:51:22Z"
+ },
+ {
   "id": "92f50684be7b2196",
   "kind": "launch",
   "headline": "ClipMatch: AI transforms camera rolls into social clips",
