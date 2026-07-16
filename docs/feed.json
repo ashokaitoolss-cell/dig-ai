@@ -1,5 +1,17 @@
 [
  {
+  "id": "92f50684be7b2196",
+  "kind": "launch",
+  "headline": "ClipMatch: AI transforms camera rolls into social clips",
+  "summary": "ClipMatch uses AI to turn raw video from your phone into ready-to-post social media content. For a filmmaker making motion design work, this could save time converting raw footage into clips sized for TikTok, Instagram Reels, and YouTube Shorts.",
+  "detail": "ClipMatch automatically transforms camera roll footage into social media content using AI. The tool could help a filmmaker or content creator quickly turn hours of raw footage into multiple ready-to-share clips. More details and availability are on Product Hunt.",
+  "category": "editing-vfx",
+  "relevance": 5,
+  "url": "https://www.producthunt.com/products/clipmatch",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-16T07:08:50Z"
+ },
+ {
   "id": "807c69b99fd428d2",
   "kind": "research",
   "headline": "Thinking Machines releases 975B open-weights LLM",
