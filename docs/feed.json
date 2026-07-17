@@ -1,5 +1,41 @@
 [
  {
+  "id": "7308472b2830aed0",
+  "kind": "research",
+  "headline": "DiffGI makes high-quality 3D models from geometry images",
+  "summary": "A new technique for creating detailed 3D models using a different kind of image representation. Motion designers could use this to generate better 3D assets, but it's still in research phase.",
+  "detail": "DiffGI presents a method for generating high-quality 3D models using geometry images, focusing on thin-shell geometry. The technique aims to improve the detail and quality of 3D generation. While this is academic research not yet a shipping tool, breakthroughs in 3D generation could influence future creative tools for filmmakers.",
+  "category": "research",
+  "relevance": 5,
+  "url": "https://ejshim.github.io/diffgi/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-17T05:28:34Z"
+ },
+ {
+  "id": "4c88fbcc191cafde",
+  "kind": "launch",
+  "headline": "Kimi K3: 2.8 trillion parameter open language model",
+  "summary": "A massive 2.8 trillion parameter language model released as open source. The article notes this model is too large for most people to run on their own computers, limiting practical creative uses.",
+  "detail": "Kimi released K3, one of the largest open language models at 2.8 trillion parameters. However, the reporting emphasizes its computational demands make it impractical to run locally for most users. For filmmakers, this is infrastructure news rather than a direct creative tool.",
+  "category": "model-infra",
+  "relevance": 2,
+  "url": "https://vettedconsumer.com/kimi-k3-the-largest-open-model-ever-2-8t-params-and-why-almost-no-one-can-run-it-locally/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-17T05:28:34Z"
+ },
+ {
+  "id": "78fdca407c4102d5",
+  "kind": "launch",
+  "headline": "img2svg-animation turns photos into animated line art",
+  "summary": "A web tool that takes any picture and turns it into an animated drawing effect, like a line drawing that draws itself. Motion designers can use this to create animated graphics and transitions for videos.",
+  "detail": "img2svg-animation converts photos into animated SVG line art with a self-drawing animation effect. The tool runs in your browser, so no installation needed. This could be useful for creating stylized animated graphics, title sequences, or transitions in video projects.",
+  "category": "editing-vfx",
+  "relevance": 5,
+  "url": "https://img2svg-animation.vercel.app/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-17T05:28:34Z"
+ },
+ {
   "id": "808f84e6c093681d",
   "kind": "launch",
   "headline": "LM Studio introduces Bionic agent for open models",
