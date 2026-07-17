@@ -1,5 +1,17 @@
 [
  {
+  "id": "279c84850269e22c",
+  "kind": "launch",
+  "headline": "krea2-outpaint image model available on Hugging Face",
+  "summary": "This model extends images outward, letting you add space and adjust framing. It just launched on Hugging Face with almost no adoption, so it's very experimental.",
+  "detail": "Just released on Hugging Face as an image-to-image model, it currently has only 4 likes and 1 download. The tool takes your images and fills in space beyond the edges to create wider shots or adjust composition. It could be useful for expanding and reframing images in your designs. Since it has essentially no adoption or track record, treat it as experimental and test it on small projects first.",
+  "category": "image-gen",
+  "relevance": 3,
+  "url": "https://huggingface.co/yijunwang2/krea2-outpaint",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-17T12:40:28Z"
+ },
+ {
   "id": "d06f2bceffed7823",
   "kind": "launch",
   "headline": "Flux NSFW variant on Hugging Face",
