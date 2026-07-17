@@ -1,5 +1,29 @@
 [
  {
+  "id": "ac29572491bbf1af",
+  "kind": "launch",
+  "headline": "Kimi K3 open 3T-class language model released",
+  "summary": "Kimi K3 is a new open-source language model with 3 trillion parameters. It's a big infrastructure achievement, but it's a general text model without special features for making videos or images.",
+  "detail": "Described as the world's first open model at this 3T scale, this is notable for model infrastructure but not purpose-built for creative filmmaking work.",
+  "category": "model-infra",
+  "relevance": 4,
+  "url": "https://www.producthunt.com/products/kimi-2",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-17T07:07:41Z"
+ },
+ {
+  "id": "3914b6a94a31dc41",
+  "kind": "launch",
+  "headline": "Dream Pixel AI free image-to-image generator online",
+  "summary": "Dream Pixel AI is a new free tool that turns one image into another using AI. It could help you explore design ideas and create variations without spending money on other tools.",
+  "detail": "A free online image-to-image AI generator. The snippet doesn't say what makes it different from Midjourney, Flux, or other tools you already use, so it's unclear how much it would add to your current workflow.",
+  "category": "image-gen",
+  "relevance": 6,
+  "url": "https://www.producthunt.com/products/ai-image-editor-12",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-17T07:07:41Z"
+ },
+ {
   "id": "7308472b2830aed0",
   "kind": "research",
   "headline": "DiffGI makes high-quality 3D models from geometry images",
