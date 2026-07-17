@@ -1,5 +1,17 @@
 [
  {
+  "id": "5dfa7d0028144884",
+  "kind": "launch",
+  "headline": "Lucy: realtime video editing tool",
+  "summary": "Lucy is a video editing tool that works in real time, letting you make edits as the video plays. For motion designers, this could speed up rough cuts and let you test different versions without waiting for renders.",
+  "detail": "Lucy offers realtime video editing with improved control and capabilities according to its announcement. The tool is designed to let you edit on the fly instead of using traditional timelines. You can check it out at lucy.decart.ai, though the low engagement on Hacker News suggests it's either very new or not yet gaining significant traction.",
+  "category": "editing-vfx",
+  "relevance": 5,
+  "url": "https://lucy.decart.ai/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-17T08:24:43Z"
+ },
+ {
   "id": "ac29572491bbf1af",
   "kind": "launch",
   "headline": "Kimi K3 open 3T-class language model released",
