@@ -1,8 +1,3 @@
-{"ts": "2026-07-05T10:11:36Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 141}
-{"ts": "2026-07-05T10:12:06Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 141}
-{"ts": "2026-07-05T10:12:11Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 141}
-{"ts": "2026-07-05T10:12:13Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: fwwrsd/xzbs_woman-zimage-base-lora-v2"}
-{"ts": "2026-07-05T10:12:13Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: sam749/flux-klein-q4"}
 {"ts": "2026-07-05T10:12:13Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: sil-ai/senga-LUK-20k-msmel-speecht5"}
 {"ts": "2026-07-05T10:12:13Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: sil-ai/senga-LUK-20k-l1-speecht5"}
 {"ts": "2026-07-05T10:12:13Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: sil-ai/senga-LUK-20k-clean-speecht5"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-17T11:32:54Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 805}
 {"ts": "2026-07-17T11:32:58Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 805}
 {"ts": "2026-07-17T11:32:59Z", "event": "run_summary", "fetched": 1320, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-17T11:43:12Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 806}
+{"ts": "2026-07-17T11:43:43Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 806}
+{"ts": "2026-07-17T11:43:53Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 806}
+{"ts": "2026-07-17T11:44:08Z", "event": "classified", "source": "hackernews", "title": "Zero Weights Deterministic Graph Language Model (MSE-GLM)", "url": "https://tonlexianert.com/pages/blog.php", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-17T11:44:08Z", "event": "run_summary", "fetched": 1320, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
