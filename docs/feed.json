@@ -1,5 +1,29 @@
 [
  {
+  "id": "ed990eae52b74fef",
+  "kind": "launch",
+  "headline": "Auto-sync video edits to music beat",
+  "summary": "A tool that automatically edits video cuts in sync with your audio track's beat. This saves time on music videos by doing the rhythm timing for you instead of manual editing.",
+  "detail": "This tool takes an audio track (especially Suno-generated music) and auto-generates a music video with edits timed precisely to the beat. Shared as a Show HN project. The automatic beat-syncing would be useful for rapidly producing music videos, eliminating tedious manual timing work.",
+  "category": "video-gen",
+  "relevance": 6,
+  "url": "https://aivideogenerator.so/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-18T13:29:37Z"
+ },
+ {
+  "id": "02ff15f7a7f5f522",
+  "kind": "launch",
+  "headline": "Music generator workbench to compare AI tools",
+  "summary": "A web tool where you can make and compare music from different AI generators side by side. It helps you quickly test which AI music tool sounds best for your next project.",
+  "detail": "A browser-based workbench for generating music with multiple AI tools and comparing results in one place. It's an early Show HN release. While music is secondary to your video focus, this could help you pick the right AI music tool faster when you need audio for motion projects.",
+  "category": "audio-music",
+  "relevance": 5,
+  "url": "https://imaginevid.io/ai-music-generator",
+  "source": "Hacker News",
+  "timestamp": "2026-07-18T13:29:38Z"
+ },
+ {
   "id": "9e2f5cef7b682bbc",
   "kind": "launch",
   "headline": "Helios distilled text-to-video model",
