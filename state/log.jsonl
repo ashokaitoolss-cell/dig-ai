@@ -1,8 +1,3 @@
-{"ts": "2026-07-06T08:52:17Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: IanKobby/mms-tts-twi-ghana"}
-{"ts": "2026-07-06T08:52:17Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: IanKobby/speecht5-ghana-tts"}
-{"ts": "2026-07-06T08:52:18Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: Jinstudio/VibeVoice-1.5B"}
-{"ts": "2026-07-06T08:52:18Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: Jinstudio/Qwen3-TTS-12Hz-1.7B-VoiceDesign"}
-{"ts": "2026-07-06T08:52:18Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: Jinstudio/Qwen3-TTS-12Hz-0.6B-Base"}
 {"ts": "2026-07-06T08:52:18Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: Jinstudio/Qwen3-TTS-12Hz-1.7B-CustomVoice"}
 {"ts": "2026-07-06T08:52:18Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: mlx-community/index-tts2-mlx"}
 {"ts": "2026-07-06T08:52:18Z", "event": "fuzzy_dup", "source": "huggingface", "title": "New Hugging Face model: cstr/irodori-tts-GGUF"}
@@ -4998,3 +4993,8 @@
 {"ts": "2026-07-18T08:47:59Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 846}
 {"ts": "2026-07-18T08:48:05Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 846}
 {"ts": "2026-07-18T08:48:07Z", "event": "run_summary", "fetched": 1305, "new": 0, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
+{"ts": "2026-07-18T09:02:43Z", "event": "fetch_error", "source": "replicate", "error": "401 Client Error: Unauthorized for url: https://api.replicate.com/v1/models", "consecutive_failures": 847}
+{"ts": "2026-07-18T09:06:33Z", "event": "fetch_error", "source": "reddit", "error": "403 Client Error: Blocked for url: https://www.reddit.com/r/StableDiffusion/new.json?limit=25", "consecutive_failures": 847}
+{"ts": "2026-07-18T09:06:39Z", "event": "fetch_error", "source": "midjourney", "error": "HTTPSConnectionPool(host='www.midjourney.com', port=443): Max retries exceeded with url: /updates (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)')))", "consecutive_failures": 847}
+{"ts": "2026-07-18T09:06:49Z", "event": "classified", "source": "hackernews", "title": "AI Gets Trapped in a Circular Loop on Climate Science", "url": "https://news.ycombinator.com/item?id=48956370", "kind": "skip", "category": "other", "relevance": 1, "headline": "", "summary": "", "detail": ""}
+{"ts": "2026-07-18T09:06:49Z", "event": "run_summary", "fetched": 1305, "new": 1, "launches": 0, "notified": 0, "failing_sources": ["midjourney", "reddit", "replicate"]}
