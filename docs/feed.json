@@ -1,5 +1,29 @@
 [
  {
+  "id": "207205b566b28580",
+  "kind": "launch",
+  "headline": "Buzzy launches on Product Hunt as AI co-director",
+  "summary": "Buzzy is a new AI tool designed to help you direct creative projects like a human co-director would. It's built for filmmakers and motion designers who want AI help thinking through creative choices and direction.",
+  "detail": "Buzzy just launched on Product Hunt as a creative-AI tool for filmmakers. It positions itself as your AI co-director, suggesting it helps with creative guidance and decision-making. The Product Hunt listing does not share technical details about features, capabilities, or pricing, so check the page to learn exactly how it works and what you get for the cost.",
+  "category": "creative-platform",
+  "relevance": 6,
+  "url": "https://www.producthunt.com/products/buzzy-2",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-18T07:40:00Z"
+ },
+ {
+  "id": "1b9a0f1b9b9315e7",
+  "kind": "launch",
+  "headline": "WX experimental synth for playable generative sound",
+  "summary": "WX is an experimental synthesizer that generates sound with AI, and you can play with it and change it in real time. It could help filmmakers and motion designers make custom music and sound effects faster for their projects.",
+  "detail": "WX is a new experimental synthesizer for creating generative sound. You can play with the sound and change it interactively. For filmmakers and motion designers, this could speed up sound design and music creation instead of hunting for audio clips or hiring composers. It's still experimental, so it's cutting-edge but still evolving. Check it out on Product Hunt.",
+  "category": "audio-music",
+  "relevance": 6,
+  "url": "https://www.producthunt.com/products/wx",
+  "source": "Product Hunt",
+  "timestamp": "2026-07-18T07:40:01Z"
+ },
+ {
   "id": "279c84850269e22c",
   "kind": "launch",
   "headline": "krea2-outpaint image model available on Hugging Face",
