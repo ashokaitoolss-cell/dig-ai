@@ -1,5 +1,17 @@
 [
  {
+  "id": "a2757a77a1b37ac5",
+  "kind": "launch",
+  "headline": "F5-TTS Yoruba language model on Hugging Face",
+  "summary": "This is a text-to-speech tool for Yoruba language that turns written words into speech. It's not directly useful for most English-language filmmakers, but shows open-source audio tools are expanding to more languages.",
+  "detail": "A new Yoruba text-to-speech model is free on Hugging Face. It got 85 downloads right after going live. You can download it and use it to turn written Yoruba into speech. It's mainly useful for creators making videos in Yoruba or other African languages, not English-language filmmaking.",
+  "category": "audio-music",
+  "relevance": 2,
+  "url": "https://huggingface.co/PlotweaverAI/f5-tts-yoruba-155h-25peochs",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-18T14:58:14Z"
+ },
+ {
   "id": "3740cb3f4a8bb231",
   "kind": "launch",
   "headline": "f5-tts Yoruba text-to-speech model on Hugging Face",
