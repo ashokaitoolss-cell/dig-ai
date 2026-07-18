@@ -1,5 +1,17 @@
 [
  {
+  "id": "ab5856d9977d98a2",
+  "kind": "launch",
+  "headline": "Lucy 2.5: Realtime video editing via world model",
+  "summary": "Lucy is a video editor that makes changes to videos right away as you work. It's great for filmmakers because it uses AI to understand and edit video instantly without waiting for renders.",
+  "detail": "Lucy 2.5 is a video editing tool that uses a world model to make changes in real time. Instead of waiting for renders, you can see edits happen instantly as you work. The tool is made by Decart and ready to use now at lucy.decart.ai.",
+  "category": "editing-vfx",
+  "relevance": 7,
+  "url": "https://lucy.decart.ai/",
+  "source": "Hacker News",
+  "timestamp": "2026-07-18T17:52:09Z"
+ },
+ {
   "id": "a2757a77a1b37ac5",
   "kind": "launch",
   "headline": "F5-TTS Yoruba language model on Hugging Face",
