@@ -1,5 +1,17 @@
 [
  {
+  "id": "3740cb3f4a8bb231",
+  "kind": "launch",
+  "headline": "f5-tts Yoruba text-to-speech model on Hugging Face",
+  "summary": "A new text-to-speech model trained for Yoruba language. For filmmakers making content in Yoruba, it could generate voiceovers and dialogue.",
+  "detail": "A text-to-speech model for Yoruba language available on Hugging Face. It received 85 downloads shortly after creation. Useful if you're creating AI films with Yoruba voiceovers.",
+  "category": "audio-music",
+  "relevance": 2,
+  "url": "https://huggingface.co/Toadoum/f5-tts-yoruba",
+  "source": "Hugging Face",
+  "timestamp": "2026-07-18T14:35:45Z"
+ },
+ {
   "id": "ed990eae52b74fef",
   "kind": "launch",
   "headline": "Auto-sync video edits to music beat",
