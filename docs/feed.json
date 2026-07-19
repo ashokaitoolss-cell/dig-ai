@@ -1,5 +1,17 @@
 [
  {
+  "id": "904b40e21d091e8c",
+  "kind": "research",
+  "headline": "Multi-Agent LLMs fail at exploring each other",
+  "summary": "A research paper found that when multiple AI language models work together, they don't explore or understand each other's outputs very well. This matters for filmmakers because understanding how AI systems work together helps when building complex creative workflows.",
+  "detail": "The study shows limitations in how multi-agent LLM systems behave. When one LLM tries to understand or learn from another, they often miss important information. This is useful to know if you're building AI workflows that combine multiple models or tools. The research is published on arXiv and explores a real constraint in multi-model systems.",
+  "category": "research",
+  "relevance": 3,
+  "url": "https://arxiv.org/abs/2607.11250",
+  "source": "Hacker News",
+  "timestamp": "2026-07-19T00:47:10Z"
+ },
+ {
   "id": "ab5856d9977d98a2",
   "kind": "launch",
   "headline": "Lucy 2.5: Realtime video editing via world model",
