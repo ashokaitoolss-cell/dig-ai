@@ -1,5 +1,17 @@
 [
  {
+  "id": "93a3491f1a5b4e25",
+  "kind": "research",
+  "headline": "LLM fingerprinting from single token output",
+  "summary": "Researchers found a way to identify which LLM made an output by looking at just one token's probability distribution. It's interesting but doesn't change how you make videos or prompt AI tools.",
+  "detail": "A paper showing that LLMs can be fingerprinted by analyzing the statistical distribution of their first token output. The technique could theoretically identify model versions, but it's a narrow academic finding with no direct application for filmmakers or motion designers.",
+  "category": "research",
+  "relevance": 2,
+  "url": "https://arxiv.org/abs/2607.10252",
+  "source": "Hacker News",
+  "timestamp": "2026-07-19T07:43:44Z"
+ },
+ {
   "id": "904b40e21d091e8c",
   "kind": "research",
   "headline": "Multi-Agent LLMs fail at exploring each other",
